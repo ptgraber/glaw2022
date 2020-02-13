@@ -1,0 +1,31 @@
+uuid: ff905af4-963d-4e55-9d64-896e6860be0b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5cd2b8eb-b1af-4554-a8cc-6b61554c7294'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: homeblockaboutfirm
+theme: nexus
+region: preface_second
+weight: -11
+provider: null
+plugin: 'block_content:5cd2b8eb-b1af-4554-a8cc-6b61554c7294'
+settings:
+  id: 'block_content:5cd2b8eb-b1af-4554-a8cc-6b61554c7294'
+  label: 'Home Block - About Firm'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

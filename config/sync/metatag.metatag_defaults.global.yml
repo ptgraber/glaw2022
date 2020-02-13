@@ -1,0 +1,25 @@
+uuid: 295809bf-aa9c-4728-847f-7e5b23d93b17
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url:absolute]'
+  rights: 'Copyright 2006-2019, Graber Law Firm, PLLC. All rights reserved.'
+  shortlink: '[current-page:url:unaliased]'
+  title: '[current-page:title] | [site:name]'
+  og_country_name: 'United States'
+  og_email: info@familylawraleigh.com
+  og_fax_number: '(919) 758-8175'
+  og_latitude: '35.778106'
+  og_locality: Raleigh
+  og_longitude: '-78.639582'
+  og_phone_number: '(919) 758-8174'
+  og_postal_code: '27601'
+  og_region: NC
+  og_site_name: '[site:name]'
+  og_street_address: '5 W. Hargett Street'
+  og_url: '[current-page:url:absolute]'

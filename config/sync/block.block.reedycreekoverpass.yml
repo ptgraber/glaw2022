@@ -1,0 +1,31 @@
+uuid: b7923533-75f2-4e05-9fc0-2f1b12a28c0a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_block:9fb5b3d6-6552-4774-850d-100d45c04ef0'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: reedycreekoverpass
+theme: nexus
+region: preface_third
+weight: -7
+provider: null
+plugin: 'block_content:9fb5b3d6-6552-4774-850d-100d45c04ef0'
+settings:
+  id: 'block_content:9fb5b3d6-6552-4774-850d-100d45c04ef0'
+  label: 'Reedy Creek Overpass'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/practice-areas/family-law*'
+    negate: false
+    context_mapping: {  }

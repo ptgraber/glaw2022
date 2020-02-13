@@ -1,0 +1,30 @@
+uuid: 368cdc7f-adee-426e-99f5-ef00b485daa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - nexus
+id: mainnavigation_3
+theme: nexus
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Understanding Domestic Violence'
+  provider: system
+  label_display: visible
+  level: 3
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/practice-areas/domestic-violence/*'
+    negate: false
+    context_mapping: {  }

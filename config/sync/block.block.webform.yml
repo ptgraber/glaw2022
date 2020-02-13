@@ -1,0 +1,31 @@
+uuid: 3a48443e-ac87-45ba-a904-452fc705cf6f
+langcode: en
+status: true
+dependencies:
+  config:
+    - webform.webform.contact
+  module:
+    - system
+    - webform
+  theme:
+    - nexus
+id: webform
+theme: nexus
+region: sidebar_first
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: 'Contact Us!'
+  provider: webform
+  label_display: visible
+  webform_id: contact
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    pages: "/overview\r\n/contact*\r\n/consult-request\r\n<front>\r\n/practice-areas\r\n/practice-areas/family-law*\r\n/practice-areas/divorce-law*\r\n/practice-areas/domestic-violence*\r\n/privacy-policy\r\n/sitemap"
+    negate: true
+    context_mapping: {  }

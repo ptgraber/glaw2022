@@ -1,0 +1,31 @@
+uuid: 22e41a8b-8ea4-407d-9356-3be3355a92a8
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_block:c0d080a3-5a7a-4321-94db-3529d27531c5'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: wiltedrose
+theme: nexus
+region: preface_third
+weight: -6
+provider: null
+plugin: 'block_content:c0d080a3-5a7a-4321-94db-3529d27531c5'
+settings:
+  id: 'block_content:c0d080a3-5a7a-4321-94db-3529d27531c5'
+  label: 'Wilted rose'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /practice-areas/domestic-violence
+    negate: false
+    context_mapping: {  }

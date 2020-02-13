@@ -1,0 +1,14 @@
+uuid: f79eb523-9cfb-4364-b158-dc891a4cc0e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.formviewer
+  module:
+    - user
+id: user_add_role_action.formviewer
+label: 'Add the FormViewer role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: formviewer

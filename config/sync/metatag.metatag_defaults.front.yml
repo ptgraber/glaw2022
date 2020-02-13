@@ -1,0 +1,24 @@
+uuid: e78da0da-f4aa-4fb9-b97a-a6c38de6b9a6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  abstract: 'Graber Law Firm, PLLC, is a Raleigh-based law practice serving clients in matters involving family law, divorce, and domestic violence.  The firm is comprised of three attorneys and a small professional staff and presents a combined experience of nearly 50 years.'
+  canonical_url: '[site:url]'
+  description: 'Graber Law Firm, PLLC, is a Raleigh-based law practice serving clients in matters involving family law, divorce, and domestic violence.  The firm is comprised of three attorneys and a small professional staff and presents a combined experience of nearly 50 years.'
+  geo_region: US-NC
+  icbm: '35.778106,-78.639582'
+  image_src: 'https://www.familylawraleigh.com/sites/default/files/glaw-2019_0_0.png'
+  keywords: divorce
+  shortlink: '[site:url]'
+  title: 'Raleigh Family Law & Divorce | The Graber Law Firm, PLLC'
+  og_description: 'Graber Law Firm, PLLC, is a Raleigh-based law practice serving clients in matters involving family law, divorce, and domestic violence.  The firm is comprised of three attorneys and a small professional staff and presents a combined experience of nearly 5'
+  og_image: 'https://www.familylawraleigh.com/sites/default/files/glaw-2019_0_0.png'
+  og_site_name: '[site:name]'
+  og_title: '[site:name]'
+  og_type: Website
+  og_url: '[site:url]'

@@ -1,0 +1,31 @@
+uuid: fc36ca4a-445a-4c71-bc96-f20ff0351684
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_block:70c6b503-8bbe-4262-88cf-698a2c705317'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: locationmap
+theme: nexus
+region: preface_third
+weight: 0
+provider: null
+plugin: 'block_content:70c6b503-8bbe-4262-88cf-698a2c705317'
+settings:
+  id: 'block_content:70c6b503-8bbe-4262-88cf-698a2c705317'
+  label: 'Location Map'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact-us
+    negate: false
+    context_mapping: {  }

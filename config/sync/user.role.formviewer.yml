@@ -1,0 +1,10 @@
+uuid: ce283028-0ba1-404b-b929-0924ea4ebf2f
+langcode: en
+status: true
+dependencies: {  }
+id: formviewer
+label: FormViewer
+weight: 3
+is_admin: null
+permissions:
+  - 'view webform submissions own node'

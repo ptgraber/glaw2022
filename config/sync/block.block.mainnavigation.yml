@@ -1,0 +1,30 @@
+uuid: b309dd5d-a2a2-41bc-9694-75bff49500b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - nexus
+id: mainnavigation
+theme: nexus
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Navigating Divorce'
+  provider: system
+  label_display: visible
+  level: 3
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '/practice-areas/divorce-law/*'
+    negate: false
+    context_mapping: {  }

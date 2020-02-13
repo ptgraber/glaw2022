@@ -1,0 +1,31 @@
+uuid: 05d828ea-0198-489d-a749-f3cff425abf3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:40e19e9d-aad5-42e6-9765-33fdc36d03c7'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: homeblockcontactus
+theme: nexus
+region: preface_second
+weight: -10
+provider: null
+plugin: 'block_content:40e19e9d-aad5-42e6-9765-33fdc36d03c7'
+settings:
+  id: 'block_content:40e19e9d-aad5-42e6-9765-33fdc36d03c7'
+  label: 'Home Block - Contact Us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

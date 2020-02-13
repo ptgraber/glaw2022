@@ -1,0 +1,31 @@
+uuid: 6e8c828b-fc55-4eb5-9b86-1dcb147fd212
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:image_block:6dc916ef-3aac-4e23-a6e3-e0445e9a0429'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: officeinterior
+theme: nexus
+region: preface_third
+weight: -8
+provider: null
+plugin: 'block_content:6dc916ef-3aac-4e23-a6e3-e0445e9a0429'
+settings:
+  id: 'block_content:6dc916ef-3aac-4e23-a6e3-e0445e9a0429'
+  label: Office-Interior
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /overview
+    negate: false
+    context_mapping: {  }

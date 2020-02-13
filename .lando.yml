@@ -1,0 +1,27 @@
+name: glaw-2019
+recipe: drupal8
+config:
+  webroot: web
+  php: '7.2'
+  xdebug: false
+  config:
+    php: php.ini
+services:
+  node:
+    type: node:6.10
+    run:
+      - "cd $LANDO_MOUNT && gulp"
+    globals:
+      gulp-cli: "latest"
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
+

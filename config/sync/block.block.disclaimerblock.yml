@@ -1,0 +1,31 @@
+uuid: 00f852a8-31c6-4fd8-afb4-332648c9340d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:963721de-c725-4fcb-bf59-2cadf78df2ab'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: disclaimerblock
+theme: nexus
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:963721de-c725-4fcb-bf59-2cadf78df2ab'
+settings:
+  id: 'block_content:963721de-c725-4fcb-bf59-2cadf78df2ab'
+  label: 'Disclaimer Block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

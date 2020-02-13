@@ -1,0 +1,25 @@
+uuid: 84c0de86-e439-4a92-9d27-dabc58b9549d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:8729a4a7-7554-404b-9e84-885df3d7ed1d'
+  module:
+    - block_content
+  theme:
+    - nexus
+id: officeinfo
+theme: nexus
+region: footer_first
+weight: -6
+provider: null
+plugin: 'block_content:8729a4a7-7554-404b-9e84-885df3d7ed1d'
+settings:
+  id: 'block_content:8729a4a7-7554-404b-9e84-885df3d7ed1d'
+  label: 'Office Info'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

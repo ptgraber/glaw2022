@@ -1,0 +1,25 @@
+uuid: ed66f1c2-de37-48d3-beef-9b22897b8810
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:f5ee6307-d095-45b0-9624-ce2190bf03ff'
+  module:
+    - block_content
+  theme:
+    - nexus
+id: connect
+theme: nexus
+region: footer_second
+weight: -3
+provider: null
+plugin: 'block_content:f5ee6307-d095-45b0-9624-ce2190bf03ff'
+settings:
+  id: 'block_content:f5ee6307-d095-45b0-9624-ce2190bf03ff'
+  label: Connect
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

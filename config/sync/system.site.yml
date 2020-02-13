@@ -1,0 +1,14 @@
+uuid: 78f1f1cf-e171-46e0-8100-5c7388aa18ca
+name: 'Graber Law Firm'
+mail: info@familylawraleigh.com
+slogan: 'Experienced & Effective.  Focused on YOU.'
+page:
+  403: ''
+  404: ''
+  front: /node/4
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

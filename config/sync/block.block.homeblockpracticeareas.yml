@@ -1,0 +1,31 @@
+uuid: 537492d0-f910-4662-9c6e-34686399ada4
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:952b4fca-fc97-4804-b2b6-19ae35080a5c'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: homeblockpracticeareas
+theme: nexus
+region: preface_second
+weight: -12
+provider: null
+plugin: 'block_content:952b4fca-fc97-4804-b2b6-19ae35080a5c'
+settings:
+  id: 'block_content:952b4fca-fc97-4804-b2b6-19ae35080a5c'
+  label: 'Home Block - Practice Areas'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

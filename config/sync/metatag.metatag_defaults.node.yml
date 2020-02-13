@@ -1,0 +1,20 @@
+uuid: 1c48161a-5ab0-49d1-bfe4-55cf19c311c1
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rpwvgyEURXLz_JjgMCrkS1rUv-0k3L79BpO-ReN7fDI
+id: node
+label: Content
+tags:
+  abstract: '[node:summary]'
+  canonical_url: '[node:url]'
+  description: '[node:summary]'
+  title: '[node:title] | [site:name]'
+  article_modified_time: '[node:changed:custom:c]'
+  article_published_time: '[node:changed:custom:c]'
+  og_description: '[node:summary]'
+  og_site_name: 'Graber Law Firm, PLLC'
+  og_title: '[node:title] | [site:name]'
+  og_type: Page
+  og_updated_time: '[node:changed:custom:c]'

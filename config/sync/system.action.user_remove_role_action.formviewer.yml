@@ -1,0 +1,14 @@
+uuid: 9c42cc89-d462-4e10-a10d-bd28100e60be
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.formviewer
+  module:
+    - user
+id: user_remove_role_action.formviewer
+label: 'Remove the FormViewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: formviewer

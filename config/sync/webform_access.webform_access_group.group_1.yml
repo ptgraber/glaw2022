@@ -1,0 +1,13 @@
+uuid: aa6994c9-5cac-440c-b097-f978df9ce11a
+langcode: en
+status: true
+dependencies: {  }
+id: group_1
+label: 'Group 1'
+description: 'This is a group'
+type: ''
+permissions:
+  - view_any
+  - delete_any
+  - purge_any
+emails: {  }
