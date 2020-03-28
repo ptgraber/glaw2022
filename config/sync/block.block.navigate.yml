@@ -1,12 +1,11 @@
 uuid: b9dad956-af13-498b-9f28-8dc17286b368
 langcode: en
-status: true
+status: false
 dependencies:
   content:
     - 'block_content:image_block:0d2b31e6-1e71-452a-903e-46a5309abef4'
   module:
     - block_content
-    - system
   theme:
     - nexus
 id: navigate
@@ -23,9 +22,4 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility:
-  request_path:
-    id: request_path
-    pages: '/practice-areas/divorce*'
-    negate: false
-    context_mapping: {  }
+visibility: {  }

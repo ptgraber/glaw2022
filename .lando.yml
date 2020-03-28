@@ -8,7 +8,7 @@ config:
     php: php.ini
 services:
   node:
-    type: node:6.10
+    type: node:12
     run:
       - "cd $LANDO_MOUNT && gulp"
     globals:

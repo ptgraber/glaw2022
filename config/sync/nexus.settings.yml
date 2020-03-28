@@ -5,7 +5,7 @@ features:
   favicon: false
 logo:
   use_default: false
-  path: 'public://glaw-2019_0_0.png'
+  path: 'public://glaw-logo_1_0.png'
 favicon:
   use_default: false
   path: ''

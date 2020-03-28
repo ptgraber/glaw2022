@@ -1,6 +1,6 @@
 uuid: ffdbf221-79e0-4319-9f24-be39ef504aa9
 langcode: en
-status: false
+status: true
 dependencies:
   content:
     - 'block_content:image_block:a1c1047d-488a-4450-9e00-c7071ebb7515'
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: '/practice-areas/divorce-law*'
+    pages: '/practice-areas/divorce*'
     negate: false
     context_mapping: {  }

@@ -1,0 +1,31 @@
+uuid: a3f3ef3b-9866-4cd3-8547-9cd06351581f
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:image_block:24b4b666-5fa7-4ed6-8340-87e3b8199d3b'
+  module:
+    - block_content
+    - system
+  theme:
+    - nexus
+id: familylawguide
+theme: nexus
+region: preface_third
+weight: 0
+provider: null
+plugin: 'block_content:24b4b666-5fa7-4ed6-8340-87e3b8199d3b'
+settings:
+  id: 'block_content:24b4b666-5fa7-4ed6-8340-87e3b8199d3b'
+  label: 'Family Law Guide'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/practice-areas/family-law/*'
+    negate: false
+    context_mapping: {  }

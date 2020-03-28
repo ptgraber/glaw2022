@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: "/overview\r\n/contact*\r\n/consult-request\r\n<front>\r\n/practice-areas\r\n/practice-areas/family-law*\r\n/practice-areas/divorce-law*\r\n/practice-areas/domestic-violence*\r\n/privacy-policy\r\n/sitemap"
+    pages: "/overview\r\n/contact*\r\n/consult-request\r\n<front>\r\n/practice-areas*\r\n/practice-areas/family-law*\r\n/practice-areas/divorce-law*\r\n/practice-areas/domestic-violence*\r\n/privacy-policy\r\n/sitemap"
     negate: true
     context_mapping: {  }
