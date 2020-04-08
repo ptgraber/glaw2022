@@ -18,8 +18,8 @@ exports.css = css;
 
 //Watch Files
 function watchFiles() {
-  gulp.watch('./web/themes/contrib/nexus/sass/*.scss', css);
- }
+  gulp.watch('./web/themes/contrib/nexus/sass/**/*.scss', css);
+}
 
 //Compile CSS
   function css() {
@@ -30,6 +30,7 @@ function watchFiles() {
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(destin))
 }
+
 
  //The Build Tasks
 const build = gulp.parallel(watchFiles,css);

@@ -1,0 +1,634 @@
+/* GLaw 2019 */
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap');
+
+/* Debugging */
+.d {
+  border: 1px red solid;
+}
+
+/* Import Partials */
+
+@import 'tabs';
+@import 'typography';
+@import 'navigation';
+
+
+.primelead {
+  margin-top: 3px;
+}
+
+
+/* Cell phones */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+  .slicknav_menu {
+    background: #36002b;
+    color: #dfdfdf;
+  }
+
+  .top .float-right,
+  .attorney .float-right {
+    padding: 0em;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+  }
+
+  .leader .primelead,
+  .leader span.badge-info {
+    display: none;
+  }
+
+  .leader span.tel-number {
+    margin-top: -35px;
+  }
+
+  .tag {
+    display: none;
+  }
+
+  .head-container {
+    height: auto;
+  }
+
+  .breadcrumb {
+    display: none;
+  }
+
+  #footer-menu {
+    display: none;
+  }
+
+  #site-logo {
+    margin-top: 15px;
+  }
+
+  #main-content .service {
+    padding: 1em 0em .65em 0em;
+    margin: .25em 0em 0em 0em;
+    border-bottom: 1px #e4e4e4 solid;
+  }
+
+  #main-content p,
+  #main-content .service {
+    font-size: 15px;
+    letter-spacing: .02em;
+    line-height: 1.65em;
+  }
+
+  #main-content .service-top {
+    margin-top: -10px;
+    padding-top: 0;
+  }
+
+  #main-content .service ul {
+    margin-left: 25px;
+  }
+
+  #main-content .service ul.serv-list-b {
+    margin-top: -26px;
+    padding: 0px;
+  }
+
+  #main-content .service-note {
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+  }
+
+  #main-content h1.page-title {
+    font-size: 24px;
+    margin: 20px 0px 25px 0px;
+    line-height: 28px;
+  }
+
+  #main-content h2 {
+    font-size: 18px;
+    margin: 25px 0px 15px 0px;
+  }
+
+  #main-content .att-name {
+    margin-bottom: 20px;
+  }
+
+  #main-content h3,
+  #main-content .att-name h3 {
+    font-size: 15px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  #main-content h4 {
+    font-size: 12px;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+  }
+
+  #main-content .service h3.service-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  #main-content ul {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  #main-content li {
+    margin-bottom: 9px;
+  }
+
+  #main-content .service-desc {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+
+  #preface-area {
+    height: 125px !important;
+  }
+
+  #preface-area .page-tag {
+    left: 3%;
+    top: 25%;
+  }
+
+  #preface-area .page-tag h2 {
+    font-size: 24px;
+  }
+
+  #preface-area .page-tag h3 {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #main-content .service-sublink,
+  #main-content .service-sublink a {
+    margin-left: 0;
+    font-size: .8em;
+    float: left;
+    color: #202020;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+    background: #f5d38e;
+  }
+
+  #main-content p.disclaimer {
+    font-size: 1.1em;
+    color: #7c7c7c;
+    margin-bottom: 0px;
+  }
+
+  .site-footer {
+    text-align: center;
+  }
+}
+
+
+
+
+/*-------------Services-------------*/
+
+.service-note {
+  border-top: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  padding: 10px 10px;
+  text-align: center;
+  color: #000;
+  font-weight: 800;
+  margin: 20px 0px 50px 0px;
+}
+
+.service-note p {
+  margin-top: 20px;
+}
+
+.service {
+  padding: .9em 0em .45em 0em;
+  margin: 0em 0em 0em 0em;
+  border-bottom: 1px #ccc solid;
+}
+
+.service-top {
+  margin-top: -1em;
+  padding-bottom: .5em;
+}
+
+.service-desc {
+  padding: 0em 3em;
+  font-size: .93em;
+  line-height: 1.6em;
+}
+
+.service ul {
+  margin: -.75em 0em 2em 3em;
+  padding: 0;
+  font-size: .93em;
+  letter-spacing: .02em;
+}
+
+.service ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.service-sublink {
+  margin-left: 2em;
+}
+
+
+/*---Attorney --*/
+
+.attorney {
+  padding-bottom: 3vmin;
+ // border-bottom: 1px #b9b9b9 solid;
+  margin-bottom: 8vmin;
+}
+
+.att-name {
+  float: left;
+  margin-bottom: 50px;
+}
+
+.att-name h3 {
+  width: 730px;
+  // border: 1px red solid;
+}
+
+.attorney p.bio {
+  float: left;
+}
+
+/*----Disclaimer --*/
+
+p.disclaimer {
+  text-align: justify;
+  font-size: .58em;
+  line-height: 1.5em;
+  font-weight: 800;
+  color: #000;
+  margin: 15em 0em 0em 0em;
+  padding: 0em;
+}
+
+/*---Staff ---*/
+
+.card-title {
+  font-weight: 800;
+  font-size: 1.25em;
+}
+
+.card-role {
+  margin-top: -1em;
+  font-style: italic;
+}
+
+
+/* -- Leader --*/
+
+.leader {
+  height: 45px;
+  background: #000000;
+  color: #dddddd;
+  padding-top: 8px;
+  font-size: .9em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+}
+
+
+.leader span {
+  font-family: arial, verdana, sans-serif;
+  margin-right: 10px;
+  padding: 7px 11px;
+  border-radius: 20px;
+}
+
+.call-us {
+  font-family: 'Alfa Slab One';
+  color: #fff;
+  font-size: 1.3em;
+}
+
+span.tel-number {
+  font-family: 'Alfa Slab One';
+  color: #fff;
+  font-size: 1em;
+}
+
+
+/*Coloring */
+
+a:link,
+a:visited {
+  color: #7f143a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.head-container,
+.crumb-container {
+  background-color: #25010a;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+  border-bottom: 35px #250415 solid;
+  height: 9.5em;
+}
+
+.head-container::before {
+  opacity: .8;
+}
+
+#masthead {
+  position: relative;
+}
+
+#site-logo {
+  position: absolute;
+  z-index: 1000;
+  top: -12px;
+  left: 0;
+}
+
+#masthead .tag {
+  position: absolute;
+  color: #dfdfdf;
+  text-transform: uppercase;
+  font-size: .89em;
+  font-weight: 600;
+  letter-spacing: .15em;
+  z-index: 1000;
+  top: 105px;
+  left: 46.89%;
+}
+
+#masthead .tag a:link,
+#masthead .tag a:visited {
+  color: #dfdfdf;
+
+}
+
+.float-right {
+  padding-left: 2em;
+  margin-bottom: 2em;
+  // border: 1px red solid;
+}
+
+.top {
+  margin-bottom: 4em;
+}
+
+.top img {
+  margin-top: -2em;
+}
+
+#primary {
+  padding: 0em 2em;
+  margin: 0;
+  // background: #e0e0e0;
+}
+
+#primary::after {
+  content: "";
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: block;
+  opacity: .4;
+}
+
+#main-content {
+  padding: 3em;
+  background: #f8f2e5;
+  font-size: 1.75vmin;
+  line-height: 3.35vmin;
+}
+
+.content-area {
+  padding-right: 5vmin;
+}
+
+#sidebar {
+  border: 0px #999 solid;
+  margin: 0;
+  padding: 0;
+}
+
+#block-webform {
+  background: #d8d8d8;
+  border-radius: 15px;
+  padding: 3px 20px 20px 20px;
+}
+
+#bottom {
+  background: #320b18;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  border-top: 3px #DEBBC7 solid;
+}
+
+.site-footer {
+  background: #030303;
+}
+
+/*-- Web Form --*/
+.webform-submission-form {
+    border: 1px #ccc solid;
+    background: #ece4d5;
+    padding: 50px;
+
+}
+
+.form-text {
+    display: inline;
+}
+
+.form-item label {
+    width: 200px;
+}
+
+.webform-element--title-inline > label {
+    display: inline-block;
+}
+
+
+/*---Consult ----*/
+
+.consult {
+  padding: 10px 50px 0px 50px;
+  background: #c8bc9e;
+  color: #fdf1fc;
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: bold;
+  width: 55em;
+  margin: 3% 10%;
+  border-radius: 15px;
+  margin-bottom: 2em;
+}
+
+.consult-info {
+  display: none;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: .85em;
+  font-weight: 400;
+  color: #3b3b3b;
+  width: 100%;
+  margin: 0% 0% 2% 0%;
+  padding-left: 0%;
+}
+
+.consult-info a:link,
+.consult-info a:visited {
+  color: #e9e9e9;
+  text-decoration: none;
+}
+
+.quick-consult {
+  color: #ff0000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25em;
+  padding: 1em;
+  line-height: 1.4em;
+  text-align: center;
+  margin-bottom: 5vmin;
+}
+
+// Flexislider Overrides
+#slidebox {
+  max-height: 64.25vh;
+  // border: 1px red solid
+}
+
+#slidebox,
+ul.slides {
+  height: 80vh;
+}
+
+ul.slides img {
+  // border: 1px #fff solid;
+}
+
+/* The PreFace */
+
+#preface-area {
+  margin: 0 0 0vmin 0;
+  padding: 0 0 0vmin 0;
+  height: 300px;
+  background: #f1f1f1;
+  overflow: hidden;
+  border-top: 0px silver solid;
+  border-bottom: 1px #25071c solid;
+  position: relative;
+}
+
+#preface-area.front {
+  height: auto;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+/*----The Page Tag-----*/
+
+.page-tag {
+  position: absolute;
+  z-index: 10000;
+  left: 10%;
+  top: 33%;
+  // background: #900000;
+}
+
+.page-tag h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  //letter-spacing: .01em;
+  font-size: 3.25em;
+  line-height: 1.25em;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+  text-shadow: 2px 2px 3px #1d0011;
+}
+
+.page-tag h3 {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: .01em;
+  font-size: 2.7em;
+  font-weight: 400;
+  font-style: italic;
+  margin: -.4em 0em 0em 0em;
+  padding: 0;
+  text-shadow: 2px 2px 3px #1d0011;
+}
+
+/*--------BreadCrumbs----------*/
+
+#highlighted-block {
+  padding: 0;
+  background: #f6f6f6
+}
+
+#breadcrumbs {
+  //  background: #ccc;
+  // margin-top: -3em;
+  margin-left: -.90em;
+  //  margin-bottom: 3em;
+  font-size: .98em;
+  // padding: 0;
+  font-weight: 800;
+}
+
+.breadcrumb {
+  background: #f6f6f6;
+  //  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb a {
+  color: #000;
+}
+
+/*----------The Lead----------*/
+.lead {
+  line-height: 1.65em;
+}
+
+/*----------The Homepage----------*/
+.home-about {
+  border: 1px blue solid;
+  height: 500px;
+}
+
+.home-practice {
+  background: #e0e0e0;
+  height: 500px;
+  padding-top: 10px;
+  padding-left: 35px;
+}
+
+.home-contact {
+  background: rgb(231, 228, 212);
+  height: 350px;
+}
+
+
+/*------Home -----------*/
+
+.home-service-block div {
+    margin: 35px 35px 0px 35px;
+    color: #000;
+    border-radius: 10px;
+    border: 1px #000 solid;
+    padding: 20px;
+}
+

@@ -1,0 +1,67 @@
+/*  Sizing */
+
+h1.page-title {
+  font-size: 3.35vmin;
+  margin: 0vmin 0vmin 3.5vmin 0vmin;
+  color: #8B2F5F;
+  }
+
+h2 {
+ font-weight: 600;
+ margin: 4vmin 0vmin 2.8vmin 0vmin;
+ font-size: 2.275vmin;
+ color: #7c0c46;
+ }
+
+h3 {
+  font-weight: 800;
+  font-size: 1.10em;
+  margin-top: 1.85em;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+h4.service-title {
+    font-weight: 900;
+    margin-bottom: 60px;
+    font-size: .8em;
+    font-style: italic;
+    color: rgb(59, 44, 0);
+    text-align: center;
+}
+
+.service-title {
+  font-size: .89em;
+    line-height: 1.10em;
+}
+
+h3.service-title a {
+margin: 0;
+padding: 0;
+font-size: 1em;
+line-height: .05em;
+font-weight: bold;
+color: #3b072c;
+}
+
+#main-content {
+  font-size: 1.92em;
+  letter-spacing: .02em;
+  line-height: 1.65em;
+}
+
+/*---Lead ----*/
+
+p.lead-alt {
+  font-size: 2.8em;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.simple-list li {
+   margin-bottom: 5px;
+   line-height: .85em;
+}

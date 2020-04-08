@@ -9,8 +9,9 @@ config:
 services:
   node:
     type: node:12
-    run:
-      - "cd $LANDO_MOUNT && gulp"
+    build:
+      - npm install
+      - gulp
     globals:
       gulp-cli: "latest"
   pma:
