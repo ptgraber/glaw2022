@@ -11,6 +11,7 @@ autoload.php
 /.eslintrc.json
 /.ht.router.php
 /.htaccess
+/npm*
 /INSTALL.txt
 /README.txt
 /example.gitignore

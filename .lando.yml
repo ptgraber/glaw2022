@@ -11,7 +11,6 @@ services:
     type: node:12
     build:
       - npm install
-      - gulp
     globals:
       gulp-cli: "latest"
   pma:
