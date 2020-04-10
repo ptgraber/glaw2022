@@ -82,16 +82,17 @@
   </header>
 </div>
 </div>
+  {{ messages }}
   {% if is_front %}
     {{ attach_library('nexus/slider-js') }}
     {% if slideshow_display %}
       <div id="slidebox" class="flexslider">
         <ul class="slides">
-          <li>
+          <li id="s1">
             <img src="{{ slide1_image }}"/>
             {% if slide1_head or slide1_desc %}
               {% if slide1_head %}
-                {{ slide1_head|striptags }}
+                {# slide1_head|striptags #}
               {% endif %}
               <div class="flex-caption">
                 <h2>{{ slide1_head|striptags }}</h2>{{ slide1_desc|striptags }}
@@ -99,11 +100,11 @@
               </div>
             {% endif %}
           </li>
-          <li>
+          <li id="s2">
             <img src="{{ slide2_image }}"/>
             {% if slide2_head or slide2_desc %}
               {% if slide2_head %}
-                {{ slide2_head|striptags }}
+                {# slide2_head|striptags #}
               {% endif %}
               <div class="flex-caption">
                 <h2>{{ slide2_head|striptags }}</h2>{{ slide2_desc|striptags }}
@@ -111,11 +112,11 @@
               </div>
             {% endif %}
           </li>
-          <li>
+          <li id="s3">
             <img src="{{ slide3_image  }}"/>
             {% if slide3_head or slide3_desc %}
               {% if slide3_head %}
-                {{ slide3_head|striptags }}
+                {# slide3_head|striptags #}
               {% endif %}
               <div class="flex-caption">
                 <h2>{{ slide3_head|striptags }}</h2>{{ slide3_desc|striptags }}
@@ -147,7 +148,7 @@
                 </div>
               {% endif %}
             {% endif %}
-            {{ messages }}
+          
            
             <div id="content-wrap">
               {{ page.help }}
@@ -172,9 +173,9 @@
           {% if page.preface_second %}
             <div class="{{ 'preface-block col-sm-' ~ preface_col }}">
               {{ page.preface_second }}
+              
             </div>
-          {% endif %}
-         
+          {% endif %}     
         </div>
     </div>
 

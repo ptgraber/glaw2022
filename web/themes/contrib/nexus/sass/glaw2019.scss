@@ -439,11 +439,11 @@ a:hover {
 }
 
 /*-- Web Form --*/
+
 .webform-submission-form {
     border: 1px #ccc solid;
     background: #ece4d5;
-    padding: 50px;
-
+ //   padding: 50px;
 }
 
 .form-text {
@@ -451,7 +451,7 @@ a:hover {
 }
 
 .form-item label {
-    width: 200px;
+    width: 175px;
 }
 
 .webform-element--title-inline > label {
@@ -614,11 +614,54 @@ ul.slides img {
   height: 500px;
   padding-top: 10px;
   padding-left: 35px;
+ 
+}
+
+.field--name-field-subtitle {
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
 }
 
 .home-contact {
   background: rgb(231, 228, 212);
-  height: 350px;
+  padding-top: 25px;
+
+   .call-out {
+      padding-right: 40px;
+     //border-right: 1px #ccc solid;
+   }
+   
+   .the-form {
+      padding: 25px;
+      text-align: left;
+   }
+
+    h3 {
+      font-size: 23px;
+      color: #000;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #7c7c7c;
+    }
+
+    .webform-submission-form {
+      padding: 20px;
+      border: 1px rgb(177, 177, 177) solid;
+      box-shadow: 3px 3px 15px #999;
+      color: #696969;
+      border-radius: 10px;
+
+        .webform-actions {
+           text-align: center;
+             input {
+                width: 80%;
+             }
+        }      
+  }
 }
 
 
@@ -632,3 +675,43 @@ ul.slides img {
     padding: 20px;
 }
 
+/*---Home Page Slides ---*/
+
+#s1 .flex-caption {
+  left: 35%;
+  top: 30%;
+  width: 40vmin;
+
+  h2 {
+      margin: 2vmin 0vmin 2.125vmin 0vmin;
+      font-size: 7vmin;
+      line-height: 6.5vmin;
+  }
+  a {
+      margin-top: 3vmin;
+  }
+}
+
+#s2 .flex-caption {
+  left: 60%;
+  text-align: left;
+  width: 70vmin;
+
+  h2 {
+      margin: 2vmin 0vmin 2vmin 0vmin;
+      font-size: 5.5vmin;
+      line-height: 5.25vmin;
+  }
+}
+
+#s3 .flex-caption {
+  left: 70%;
+  top: 30%;
+  width: 60vmin;
+
+  h2 {
+      margin: 2vmin 0vmin 2vmin 0vmin;
+      font-size: 5.5vmin;
+      line-height: 5.25vmin;
+  }
+}
