@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "74104f49f53a0b435f8b40d9e2d452af",
+    "content-hash": "fa913f68a7bdf74cfb861f0a951306c8",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1771,6 +1771,61 @@
             "time": "2019-06-08T11:03:04+00:00"
         },
         {
+            "name": "drupal/checklistapi",
+            "version": "1.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/checklistapi.git",
+                "reference": "8.x-1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/checklistapi-8.x-1.11.zip",
+                "reference": "8.x-1.11",
+                "shasum": "78fcf8ff6edd02f2cdfc907981db119dfca795c2"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "php": ">=5.6.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.11",
+                    "datestamp": "1586536891",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Travis Carden",
+                    "homepage": "https://www.drupal.org/user/236758",
+                    "email": "travis.carden@gmail.com"
+                }
+            ],
+            "description": "Provides an API for creating fillable, persistent checklists.",
+            "homepage": "http://drupal.org/project/checklistapi",
+            "support": {
+                "source": "https://git.drupalcode.org/project/checklistapi",
+                "issues": "https://www.drupal.org/project/issues/checklistapi"
+            }
+        },
+        {
             "name": "drupal/console",
             "version": "1.9.4",
             "source": {
@@ -2540,6 +2595,131 @@
             }
         },
         {
+            "name": "drupal/google_analytics",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/google_analytics.git",
+                "reference": "8.x-3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/google_analytics-8.x-3.0.zip",
+                "reference": "8.x-3.0",
+                "shasum": "18179854152cae44be2a5ed5de5550bc6e131c70"
+            },
+            "require": {
+                "drupal/core": "~8.5"
+            },
+            "require-dev": {
+                "drupal/php": "*",
+                "drupal/token": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-3.0",
+                    "datestamp": "1548968580",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "hass",
+                    "homepage": "https://www.drupal.org/u/hass"
+                },
+                {
+                    "name": "See other contributors",
+                    "homepage": "https://www.drupal.org/node/49388/committers"
+                }
+            ],
+            "description": "Allows your site to be tracked by Google Analytics by adding a Javascript tracking code to every page.",
+            "homepage": "https://www.drupal.org/project/google_analytics",
+            "support": {
+                "source": "https://git.drupal.org/project/google_analytics.git",
+                "issues": "https://www.drupal.org/project/issues/google_analytics"
+            }
+        },
+        {
+            "name": "drupal/metatag",
+            "version": "1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/metatag.git",
+                "reference": "8.x-1.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/metatag-8.x-1.12.zip",
+                "reference": "8.x-1.12",
+                "shasum": "88e2b29e0fa6835753b30587f9c556c360183629"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "drupal/token": "^1.0"
+            },
+            "require-dev": {
+                "drupal/devel": "^2.0",
+                "drupal/metatag_dc": "*",
+                "drupal/metatag_open_graph": "*",
+                "drupal/page_manager": "^4.0",
+                "drupal/redirect": "^1.0",
+                "drupal/restui": "^1.0",
+                "drupal/schema_metatag": "^1.0",
+                "drupal/schema_web_page": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.12",
+                    "datestamp": "1585646341",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "See contributors",
+                    "homepage": "https://www.drupal.org/node/640498/committers",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                }
+            ],
+            "description": "Manage meta tags for all entities.",
+            "homepage": "https://www.drupal.org/project/metatag",
+            "keywords": [
+                "Drupal",
+                "seo"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/metatag",
+                "issues": "https://www.drupal.org/project/issues/metatag",
+                "docs": "https://www.drupal.org/docs/8/modules/metatag"
+            }
+        },
+        {
             "name": "drupal/paragraphs",
             "version": "1.11.0",
             "source": {
@@ -2682,6 +2862,62 @@
             "homepage": "https://www.drupal.org/project/pathauto",
             "support": {
                 "source": "https://git.drupalcode.org/project/pathauto"
+            }
+        },
+        {
+            "name": "drupal/seo_checklist",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/seo_checklist.git",
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/seo_checklist-8.x-4.1.zip",
+                "reference": "8.x-4.1",
+                "shasum": "b290b4a681b37ffc5785e75c0125b983e379158a"
+            },
+            "require": {
+                "drupal/checklistapi": "*",
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-4.x": "4.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-4.1",
+                    "datestamp": "1512797885",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Ben Finklea",
+                    "homepage": "https://www.drupal.org/user/46676"
+                },
+                {
+                    "name": "TravisCarden",
+                    "homepage": "https://www.drupal.org/user/236758"
+                }
+            ],
+            "description": "Uses best practices to check for proper search engine optimization.",
+            "homepage": "https://www.drupal.org/project/seo_checklist",
+            "keywords": [
+                "SEO"
+            ],
+            "support": {
+                "source": "http://drupalcode.org/seo_checklist",
+                "issues": "https://www.drupal.org/project/issues/seo_checklist"
             }
         },
         {
@@ -2920,6 +3156,98 @@
                 "issues": "https://www.drupal.org/project/issues/webform?version=8.x",
                 "docs": "https://www.drupal.org/docs/8/modules/webform",
                 "forum": "https://drupal.stackexchange.com/questions/tagged/webform"
+            }
+        },
+        {
+            "name": "drupal/xmlsitemap",
+            "version": "1.0.0-rc1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/xmlsitemap.git",
+                "reference": "8.x-1.0-rc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/xmlsitemap-8.x-1.0-rc1.zip",
+                "reference": "8.x-1.0-rc1",
+                "shasum": "9b88caa55f9a45b8c89a1284d2db739fbf0c830f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9",
+                "ext-xmlwriter": "*"
+            },
+            "require-dev": {
+                "drupal/robotstxt": "^1.0"
+            },
+            "suggest": {
+                "drush/drush": "Command-line regenerating and rebuilding sitemaps."
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-rc1",
+                    "datestamp": "1576705928",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9 || ^10"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "RenatoG",
+                    "homepage": "https://www.drupal.org/user/3326031"
+                },
+                {
+                    "name": "amateescu",
+                    "homepage": "https://www.drupal.org/user/729614"
+                },
+                {
+                    "name": "andrei.dincu",
+                    "homepage": "https://www.drupal.org/user/2628879"
+                },
+                {
+                    "name": "juampynr",
+                    "homepage": "https://www.drupal.org/user/682736"
+                },
+                {
+                    "name": "paulmckibben",
+                    "homepage": "https://www.drupal.org/user/279003"
+                },
+                {
+                    "name": "pifagor",
+                    "homepage": "https://www.drupal.org/user/2375692"
+                },
+                {
+                    "name": "tadityar",
+                    "homepage": "https://www.drupal.org/user/3094465"
+                },
+                {
+                    "name": "th_tushar",
+                    "homepage": "https://www.drupal.org/user/1835276"
+                }
+            ],
+            "description": "Creates XML sitemaps for the site",
+            "homepage": "https://www.drupal.org/project/xmlsitemap",
+            "support": {
+                "source": "http://cgit.drupalcode.org/xmlsitemap",
+                "issues": "http://drupal.org/project/issues/xmlsitemap"
             }
         },
         {
@@ -9177,7 +9505,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/xmlsitemap": 5
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
