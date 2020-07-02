@@ -3,9 +3,9 @@
 /web/core
 /web/modules/contrib
 /web/profiles
-/web/sites
+/web/sites/default/files
 
-autoload.php
+
 /.csslintrc
 /.eslintignore
 /.eslintrc.json
