@@ -10,7 +10,7 @@ h2 {
  font-weight: 600;
  margin: 4vmin 0vmin 2.8vmin 0vmin;
  font-size: 2.275vmin;
- color: #7c0c46;
+ color: #23333f;
  }
 
 h3 {
@@ -35,16 +35,16 @@ h4.service-title {
 
 .service-title {
   font-size: .89em;
-    line-height: 1.10em;
+  line-height: 1.12em;
 }
 
 h3.service-title a {
 margin: 0;
 padding: 0;
-font-size: 1em;
-line-height: .05em;
+font-size: 1.06em;
+line-height: .075em;
 font-weight: bold;
-color: #3b072c;
+color: #4e1710;
 }
 
 #main-content {
@@ -64,4 +64,8 @@ p.lead-alt {
 .simple-list li {
    margin-bottom: 5px;
    line-height: .85em;
+}
+
+body {
+    color: #585858;
 }
