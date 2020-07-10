@@ -253,7 +253,7 @@
 
 .att-name h3 {
   width: 730px;
-  // border: 1px red solid;
+  color:  #23333f;
 }
 
 .attorney p.bio {
@@ -429,8 +429,8 @@ a:hover {
 }
 
 #bottom {
-  background: #320b18;
-  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-color: #440d1b;
+  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
   border-top: 3px #DEBBC7 solid;
 }
 
@@ -598,19 +598,15 @@ ul.slides img {
   color: #000;
 }
 
-/*----------The Lead----------*/
-.lead {
-  line-height: 1.65em;
-}
 
 /*----------The Homepage----------*/
 .home-about {
-  border: 1px blue solid;
+
   height: 500px;
 }
 
 .home-practice {
-  background: #e0e0e0;
+  background: #23333f;
   height: 500px;
   padding-top: 10px;
   padding-left: 35px;
@@ -673,6 +669,7 @@ ul.slides img {
     border-radius: 10px;
     border: 1px #000 solid;
     padding: 20px;
+    background: #ebd7d1;
 }
 
 /*---Home Page Slides ---*/
@@ -680,7 +677,7 @@ ul.slides img {
 #s1 .flex-caption {
   left: 35%;
   top: 30%;
-  width: 40vmin;
+  width: 42vmin;
 
   h2 {
       margin: 2vmin 0vmin 2.125vmin 0vmin;
