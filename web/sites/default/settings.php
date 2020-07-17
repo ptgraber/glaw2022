@@ -757,11 +757,11 @@ $settings['entity_update_batch_size'] = 50;
 
 $config_directories['sync'] = '../config/sync';
 $databases['default']['default'] = array (
-  'database' => 'drupal8',
-  'username' => 'drupal8',
-  'password' => 'drupal8',
+  'database' => 'egraber2020_drupal8',
+  'username' => 'egraber2020_drupal8',
+  'password' => 'drupal82020!',
   'prefix' => '',
-  'host' => 'database',
+  'host' => 'localhost',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',

@@ -4,7 +4,7 @@
 /web/modules/contrib
 /web/profiles
 /web/sites/default/files
-
+/web/sites/default/settings*
 
 /.csslintrc
 /.eslintignore
