@@ -13,6 +13,7 @@
 @import 'tabs';
 @import 'typography';
 @import 'navigation';
+@import 'forms';
 
 
 .primelead {
@@ -186,8 +187,6 @@
 }
 
 
-
-
 /*-------------Services-------------*/
 
 .service-note {
@@ -233,8 +232,9 @@
   padding: 0;
 }
 
-.service-sublink {
+.service-sublink a{
   margin-left: 2em;
+  color: #4e1710;
 }
 
 
@@ -243,7 +243,7 @@
 .attorney {
   padding-bottom: 3vmin;
  // border-bottom: 1px #b9b9b9 solid;
-  margin-bottom: 8vmin;
+  margin-bottom: 0vmin;
 }
 
 .att-name {
@@ -289,7 +289,7 @@ p.disclaimer {
 
 .leader {
   height: 45px;
-  background: #000000;
+  background: #030303;
   color: #dddddd;
   padding-top: 8px;
   font-size: .9em;
@@ -323,7 +323,7 @@ span.tel-number {
 
 a:link,
 a:visited {
-  color: #7f143a;
+  color: #23333f;
 }
 
 a:hover {
@@ -332,9 +332,9 @@ a:hover {
 
 .head-container,
 .crumb-container {
-  background-color: #440d1b;
-  background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
-  border-bottom: 35px #250415 solid;
+  background-color: #35100b;
+   background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+  border-bottom: 35px #030303 solid;
   height: 9.5em;
 }
 
@@ -438,25 +438,7 @@ a:hover {
   background: #030303;
 }
 
-/*-- Web Form --*/
 
-.webform-submission-form {
-    border: 1px #ccc solid;
-    background: #bcc7c8;
-    padding: 2em;
-}
-
-.form-text {
-    display: inline;
-}
-
-.form-item label {
-    width: 215px;
-}
-
-.webform-element--title-inline > label {
-    display: inline-block;
-}
 
 
 /*---Consult ----*/
@@ -610,7 +592,12 @@ ul.slides img {
   height: 500px;
   padding-top: 10px;
   padding-left: 35px;
- 
+ }
+
+.practice_areas {
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-size: 1.5vw;
 }
 
 .field--name-field-subtitle {
@@ -648,14 +635,11 @@ ul.slides img {
       padding: 20px;
       border: 1px rgb(177, 177, 177) solid;
       box-shadow: 3px 3px 15px #999;
-      color: #696969;
+      color: #575757;
       border-radius: 10px;
 
         .webform-actions {
-           text-align: center;
-             input {
-                width: 80%;
-             }
+           text-align: right;
         }      
   }
 }
@@ -670,6 +654,7 @@ ul.slides img {
     border: 1px #000 solid;
     padding: 20px;
     background: #ebd7d1;
+    font-weight: bold;
 }
 
 /*---Home Page Slides ---*/
@@ -678,6 +663,7 @@ ul.slides img {
   left: 35%;
   top: 30%;
   width: 42vmin;
+  font-size: 1.2em;
 
   h2 {
       margin: 2vmin 0vmin 2.125vmin 0vmin;

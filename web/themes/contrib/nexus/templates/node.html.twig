@@ -91,6 +91,9 @@
     </footer>
   {% endif %}
   <div{{ content_attributes }}>
-     {{ content | without('field_tagline') }}
+     {% if content.field_subtitle %}
+        <h2>{{ content.field_subtitle }}</h2
+      {% endif %}
+     {{ content | without('field_tagline', 'field_subtitle') }}
   </div>
 </article>
