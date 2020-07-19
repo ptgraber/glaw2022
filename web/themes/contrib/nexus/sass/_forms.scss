@@ -37,7 +37,7 @@
 
 .webform-submission-form {
   border: 1px #ccc solid;
-  background: #d2d7d8;
+  background: #f2ede5;
   padding: 2em;
   border-radius: 15px;
 }
@@ -47,9 +47,22 @@
 }
 
 .form-item label {
-  width: 215px;
+  width: 25%;
+}
+
+.form-item input {
+  width: 70%;
+  border: 1px #ccc solid;
+}
+
+input.form-checkbox {
+    width: auto;
 }
 
 .webform-element--title-inline > label {
   display: inline-block;
+}
+
+.webform-button--submit {
+    background-color: red;
 }
