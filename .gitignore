@@ -3,7 +3,7 @@
 /web/core
 /web/modules/contrib
 /web/profiles
-
+/web/sites/default/files/php
 
 /.csslintrc
 /.eslintignore
