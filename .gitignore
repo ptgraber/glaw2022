@@ -9,6 +9,7 @@
 /public_html/sites/default/files/js/
 /web
 /public_html/.gitignore
+/working
 
 /.csslintrc
 /.eslintignore
