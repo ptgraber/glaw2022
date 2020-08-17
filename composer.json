@@ -91,11 +91,11 @@
         },
         "drupal-scaffold": {
             "initial": {
-                ".editorconfig": "../.editorconfig",
-                ".gitattributes": "../.gitattributes"
+                ".editorconfig": "./.editorconfig",
+                ".gitattributes": "./.gitattributes"
             },
 	    "locations": {
-                "web-root": "public_html"
+                "web-root": "./public_html"
 	    } 
         }
     }
