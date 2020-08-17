@@ -1,9 +1,11 @@
 /vendor
 /node_modules
-/web/core
-/web/modules/contrib
-/web/profiles
-/web/sites/default/files/php
+/public_html/core
+/public_html/modules/contrib
+/public_html/profiles
+/public_html/sites/default/files/php
+/public_html
+/web
 
 /.csslintrc
 /.eslintignore
