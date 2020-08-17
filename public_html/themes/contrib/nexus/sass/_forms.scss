@@ -1,0 +1,55 @@
+/* GLaw Forms 2020 */
+
+.form-actions {
+    text-align: right;
+}
+.form-item textarea {
+//  width: 300px;
+}
+
+.form-item-describe-your-issue {
+   // border: 1px red solid;
+    
+    label {
+       vertical-align: top;
+    }
+    div {
+        display: inline-block;
+    }
+}
+
+.webform-element-description {
+    font-size: 14px;
+    width: 90%;
+}
+.webform-flex--container {
+    margin: 0 1em 0 0;
+}
+.webform-flexbox fieldset {
+    background: none;
+
+     legend {
+        background: none;
+        padding-bottom: 15px;
+        border: 0;
+     }
+  }
+
+.webform-submission-form {
+  border: 1px #ccc solid;
+  background: #d2d7d8;
+  padding: 2em;
+  border-radius: 15px;
+}
+
+.form-text {
+  display: inline;
+}
+
+.form-item label {
+  width: 215px;
+}
+
+.webform-element--title-inline > label {
+  display: inline-block;
+}
