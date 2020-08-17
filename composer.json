@@ -90,15 +90,12 @@
             "drush/Commands/{$name}": ["type:drupal-drush"]
         },
         "drupal-scaffold": {
-            "locations": {
-		"web-root": "../public_html"
-		},
-	    "initial": {
-                ".editorconfig": "../.editorconfig",
-                ".gitattributes": "../.gitattributes"
+            "initial": {
+                ".editorconfig": "./.editorconfig",
+                ".gitattributes": "./.gitattributes"
             },
 	    "locations": {
-                "web-root": "public_html"
+                "web-root": "./public_html"
 	    } 
         }
     }
