@@ -1,10 +1,14 @@
 /vendor
 /node_modules
-/web/core
-/web/modules/contrib
-/web/profiles
-/web/sites/default/files
-/web/sites/default/settings*
+/public_html/core
+/public_html/modules
+/public_html/modules/contrib
+/public_html/profiles
+/public_html/sites/default/files/php
+/public_html/sites/default/files/css/
+/public_html/sites/default/files/js/
+/web
+/public_html/.gitignore
 
 /.csslintrc
 /.eslintignore

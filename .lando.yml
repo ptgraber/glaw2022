@@ -1,12 +1,16 @@
 name: glaw-2019
 recipe: drupal8
 config:
-  webroot: web
+  webroot: public_html
+  drush: ^9
   php: '7.2'
   xdebug: false
   config:
     php: php.ini
 services:
+  appserver:
+    build:
+      - composer install
   node:
     type: node:12
     build:
