@@ -12,7 +12,7 @@ dependencies:
 id: homeblockcontactus
 theme: nexus
 region: preface_second
-weight: -10
+weight: -12
 provider: null
 plugin: 'block_content:40e19e9d-aad5-42e6-9765-33fdc36d03c7'
 settings:
