@@ -5,21 +5,21 @@ features:
   favicon: false
 logo:
   use_default: false
-  path: 'public://glaw-logo_1_0.png'
+  path: 'public://glaw-logo_0.png'
 favicon:
   use_default: false
   path: ''
 slideshow_display: 1
 show_breadcrumbs: 0
-slide1_head: 'Divorce Slide'
-slide2_head: 'Family Law slide'
-slide3_head: 'Domestic Violence'
-slide1_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt elit, sed do eiusmod tempor...'
-slide2_desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do Lorem ipsum dolor sit amet irure dolor in reprehenderit...'
-slide3_desc: 'Duis aute irure dolor in reprehenderit inLorem ipsum dolor sit amet, consectetur do Lorem ipsum dolor sit amet irure...'
-slide1_url: /practice-areas/divorce
-slide2_url: /practice-areas/family-law
-slide3_url: /practice-areas/domestic-violence
+slide1_head: 'Divorcing in Raleigh?'
+slide2_head: 'Experienced Family Law for the Triangle'
+slide3_head: 'Wake County''s Domestic Violence Experts'
+slide1_desc: 'The right representation can make all the difference.'
+slide2_desc: 'Experience, effective, and ready to serve on all types of family law matters.'
+slide3_desc: 'Strong advocates in the most trying of times.'
+slide1_url: practice-areas/divorce
+slide2_url: practice-areas/family-law
+slide3_url: practice-areas/domestic-violence
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
 slide1_image: {  }

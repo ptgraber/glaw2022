@@ -12,7 +12,7 @@ dependencies:
 id: homeblockpracticeareas
 theme: nexus
 region: preface_second
-weight: -12
+weight: -14
 provider: null
 plugin: 'block_content:952b4fca-fc97-4804-b2b6-19ae35080a5c'
 settings:
