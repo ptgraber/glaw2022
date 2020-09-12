@@ -175,11 +175,6 @@
     background: #f5d38e;
   }
 
-  #main-content p.disclaimer {
-    font-size: 1.1em;
-    color: #7c7c7c;
-    margin-bottom: 0px;
-  }
 
   .site-footer {
     text-align: center;
@@ -260,17 +255,6 @@
   float: left;
 }
 
-/*----Disclaimer --*/
-
-p.disclaimer {
-  text-align: justify;
-  font-size: .58em;
-  line-height: 1.5em;
-  font-weight: 800;
-  color: #000;
-  margin: 13em 0em 0em 0em;
-  padding: 0em;
-}
 
 /*---Staff ---*/
 
@@ -432,6 +416,10 @@ a:hover {
   background-color: #440d1b;
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
   border-top: 3px #DEBBC7 solid;
+
+  h3 {
+      color: #d8d8d8;
+  }
 }
 
 .site-footer {
@@ -704,3 +692,22 @@ ul.slides img {
       line-height: 5.25vmin;
   }
 }
+
+  /*----Disclaimer --*/
+
+  p.disclaimer {
+    text-align: justify;
+    font-size: .58em;
+    line-height: 1.5em;
+    font-weight: 800;
+    color: #000;
+    margin: 13em 0em 0em 0em;
+    padding: 0em;
+  }
+   
+
+    #main-content p.disclaimer {
+      color: #7c7c7c;
+      margin-bottom: 0px;
+    }
+  
