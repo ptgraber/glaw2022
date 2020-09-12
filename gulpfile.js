@@ -7,7 +7,7 @@ const sourcemaps = require('./node_modules/gulp-sourcemaps');
 const sync = require('./node_modules/browser-sync').create();
 
 //Others
-const destin = './web/themes/contrib/nexus/assets/css/';
+const destin = './public_html/themes/contrib/nexus/assets/css/';
 
 //Compiler
 sass.compiler = require('node-sass');
@@ -18,13 +18,13 @@ exports.css = css;
 
 //Watch Files
 function watchFiles() {
-  gulp.watch('./web/themes/contrib/nexus/sass/**/*.scss', css);
+  gulp.watch('./public_html/themes/contrib/nexus/sass/**/*.scss', css);
 }
 
 //Compile CSS
   function css() {
     return gulp
-    .src('./web/themes/contrib/nexus/sass/*.scss')
+    .src('./public_html/themes/contrib/nexus/sass/*.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
     .pipe(sourcemaps.write())
