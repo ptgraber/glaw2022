@@ -29,6 +29,7 @@ module:
   google_tag: 0
   help: 0
   history: 0
+  honeypot: 0
   hreflang: 0
   image: 0
   kint: 0
