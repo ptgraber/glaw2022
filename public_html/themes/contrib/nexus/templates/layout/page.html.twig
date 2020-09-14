@@ -54,209 +54,209 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8 primelead">Raleigh Family Law &amp; Divorce</div>
-          <div class="col-sm-4 call-us"><span class="badge badge-info">Call Now!</span> <span
-              class="tel-number">919.758.8174</span></div>
+          <div class="col-sm-4 call-us"><span class="badge badge-info">Call Now!</span> <span class="tel-number">919.758.8174</span>
+          </div>
         </div>
       </div>
     </div>
-    <div class="head-container container-fluid">
 
-      <header id="masthead" class="site-header container" role="banner">
-        <div class="row">
-          {% if page.header %}
-          <div id="logo" class="site-branding col-sm-5">
-            {{ page.header }}
-          </div>
-          {% endif %}
-          <div class="col-sm-7 mainmenu">
-
-            <nav id="navigation" role="navigation">
-              <div id="main-menu">
-                {% if page.main_navigation %}
+   <div class="head-container container-fluid">
+ 
+    <header id="masthead" class="site-header container">
+    <div class="row">
+      {% if page.header %}
+        <div id="logo" class="site-branding col-sm-5">
+          {{ page.header }}
+        </div>
+      {% endif %}
+      <div class="col-sm-7 mainmenu">
+        
+        <nav id="navigation">
+          <div id="main-menu">
+            {% if page.main_navigation %}
                 {{ page.main_navigation }}
-                {% endif %}
-              </div>
-            </nav>
+            {% endif %}
           </div>
-        </div>
-        <p class="tag">
-          <a href="/practice-areas/family-law">Family Law</a>,
-          <a href="/practice-areas/divorce-law">Divorce</a> &amp;
-          <a href="/practice-areas/domestic-violence">Domestic Violence</a> Lawyers in Raleigh</p>
-      </header>
+        </nav>
+      </div>
     </div>
-  </div>
+      <p class="tag">
+      <a href="/practice-areas/family-law">Family Law</a>, 
+      <a href="/practice-areas/divorce-law">Divorce</a> &amp; 
+      <a href="/practice-areas/domestic-violence">Domestic Violence</a> Lawyers in Raleigh</p>
+  </header>
+</div>
+</div>
   {% if is_front %}
-  {{ attach_library('nexus/slider-js') }}
-  {% if slideshow_display %}
-  <div id="slidebox" class="flexslider">
-    <ul class="slides">
-      <li>
-        <img src="{{ slide1_image }}" />
-        {% if slide1_head or slide1_desc %}
-        {% if slide1_head %}
-        {{ slide1_head|striptags }}
-        {% endif %}
-        <div class="flex-caption">
-          <h2>{{ slide1_head|striptags }}</h2>{{ slide1_desc|striptags }}
-          <a class="frmore" href="{{ slide1_url|striptags }}">{{ 'Read More'|t }}</a>
-        </div>
-        {% endif %}
-      </li>
-      <li>
-        <img src="{{ slide2_image }}" />
-        {% if slide2_head or slide2_desc %}
-        {% if slide2_head %}
-        {{ slide2_head|striptags }}
-        {% endif %}
-        <div class="flex-caption">
-          <h2>{{ slide2_head|striptags }}</h2>{{ slide2_desc|striptags }}
-          <a class="frmore" href="{{ slide2_url|striptags }}">{{ 'Read More'|t }}</a>
-        </div>
-        {% endif %}
-      </li>
-      <li>
-        <img src="{{ slide3_image  }}" />
-        {% if slide3_head or slide3_desc %}
-        {% if slide3_head %}
-        {{ slide3_head|striptags }}
-        {% endif %}
-        <div class="flex-caption">
-          <h2>{{ slide3_head|striptags }}</h2>{{ slide3_desc|striptags }}
-          <a class="frmore" href="{{ slide3_url|striptags }}">{{ 'Read More'|t }}</a>
-        </div>
-        {% endif %}
-      </li>
-    </ul><!-- /slides -->
-    <div class="doverlay"></div>
-  </div>
-  {% endif %}
+    {{ attach_library('nexus/slider-js') }}
+    {% if slideshow_display %}
+      <div id="slidebox" class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="{{ slide1_image }}"/>
+            {% if slide1_head or slide1_desc %}
+              {% if slide1_head %}
+                {{ slide1_head|striptags }}
+              {% endif %}
+              <div class="flex-caption">
+                <h2>{{ slide1_head|striptags }}</h2>{{ slide1_desc|striptags }}
+                <a class="frmore" href="{{ slide1_url|striptags }}">{{ 'Read More'|t }}</a>
+              </div>
+            {% endif %}
+          </li>
+          <li>
+            <img src="{{ slide2_image }}"/>
+            {% if slide2_head or slide2_desc %}
+              {% if slide2_head %}
+                {{ slide2_head|striptags }}
+              {% endif %}
+              <div class="flex-caption">
+                <h2>{{ slide2_head|striptags }}</h2>{{ slide2_desc|striptags }}
+                <a class="frmore" href="{{ slide2_url|striptags }}">{{ 'Read More'|t }}</a>
+              </div>
+            {% endif %}
+          </li>
+          <li>
+            <img src="{{ slide3_image  }}"/>
+            {% if slide3_head or slide3_desc %}
+              {% if slide3_head %}
+                {{ slide3_head|striptags }}
+              {% endif %}
+              <div class="flex-caption">
+                <h2>{{ slide3_head|striptags }}</h2>{{ slide3_desc|striptags }}
+                <a class="frmore" href="{{ slide3_url|striptags }}">{{ 'Read More'|t }}</a>
+              </div>
+            {% endif %}
+          </li>
+        </ul><!-- /slides -->
+        <div class="doverlay"></div>
+      </div>
+    {% endif %}
   {% endif %}
 
   {% if page.preface_first or page.preface_second or page.preface_third %}
-
-  <div id="preface-area">
-
-    <div class="row">
-      <div class="col-sm-4 page-tag">
-        <h2>{{ tagline[0].value | raw }}</h2>
+ 
+      <div id="preface-area">
+     
+      <div class="row">
+        <div class="col-sm-4 page-tag">
+           <h2>{{ tagline[0].value | raw }}</h2>
+          </div>
+     
+          {% if page.preface_first %}
+          {% endif %}
+          {% if page.preface_second %}
+            <div class="{{ 'preface-block col-sm-' ~ preface_col }}">
+              {{ page.preface_second }}
+            </div>
+          {% endif %}
+          {% if page.preface_third %}
+            <div class="{{ 'preface-block col-sm-' ~ preface_col }}">
+              {{ page.preface_third }}
+            </div>
+          {% endif %}
+        </div>
+        <div class="doverlay"></div>
       </div>
-
-      {% if page.preface_first %}
-      {% endif %}
-      {% if page.preface_second %}
-      <div class="{{ 'preface-block col-sm-' ~ preface_col }}">
-        {{ page.preface_second }}
-      </div>
-      {% endif %}
-      {% if page.preface_third %}
-      <div class="{{ 'preface-block col-sm-' ~ preface_col }}">
-        {{ page.preface_third }}
-      </div>
-      {% endif %}
-    </div>
-    <div class="doverlay"></div>
-  </div>
 
   {% endif %}
 
   {% if page.highlighted %}
-  <div id="highlighted-block" class="">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
+    <div id="highlighted-block" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
 
-          {{ page.highlighted }}
+            {{ page.highlighted }}
 
+          </div>
         </div>
       </div>
     </div>
-  </div>
   {% endif %}
 
   <div id="main-content">
     <div class="container">
       <div class="row">
         {% if page.sidebar_first %}
-        {% set primary_col = 9 %}
+          {% set primary_col = 9 %}
         {% else %}
-        {% set primary_col = 12 %}
+          {% set primary_col = 12 %}
         {% endif %}
         <div id="primary" class="{{ 'content-area col-md-' ~ primary_col }}">
           <section id="content" role="main" class="d">
             {% if show_breadcrumbs %}
-            {% if breadcrumb %}
-            <div id="breadcrumbs">
-              {{ breadcrumb }}
-            </div>
-            {% endif %}
+              {% if breadcrumb %}
+                <div id="breadcrumbs">
+                  {{ breadcrumb }}
+                </div>
+              {% endif %}
             {% endif %}
             {{ messages }}
             {% if page.content_top %}
-            <div id="content_top">
-              {{ page.content_top }}
-
-            </div>
-
+              <div id="content_top">
+                {{ page.content_top }}
+               </div>
+              
             {% endif %}
             <div id="content-wrap">
               {{ page.help }}
               {{ page.content}}
             </div>
           </section>
-        </div>
-        <div class="col-md-3 d">
-          {% if page.sidebar_first %}
-          <aside id="sidebar" role="complementary">
-            {{ page.sidebar_first }}
+         </div>
+              <div class="col-md-3 d">
+                {% if page.sidebar_first %}
+              <aside id="sidebar" role="complementary">
+               {{ page.sidebar_first }}
           </aside>
-          {% endif %}
-        </div>
+           {% endif %}
+          </div>
       </div>
     </div>
   </div>
 
   {% if page.footer %}
-  <div id="footer-block">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="footer-menu">
+    <div id="footer-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+           <div id="footer-menu">
             {{ page.footer }}
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   {% endif %}
 
   {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-  <div id="bottom">
-    <div class="container">
-      <div class="row">
-        {% if page.footer_first %}
-        <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
-          {{ page.footer_first }}
+    <div id="bottom">
+      <div class="container">
+        <div class="row">
+          {% if page.footer_first %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_first }}
+            </div>
+          {% endif %}
+          {% if page.footer_second %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_second }}
+            </div>
+          {% endif %}
+          {% if page.footer_third %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_third }}
+            </div>
+          {% endif %}
+          {% if page.footer_fourth %}
+            <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
+              {{ page.footer_fourth }}
+            </div>
+          {% endif %}
         </div>
-        {% endif %}
-        {% if page.footer_second %}
-        <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
-          {{ page.footer_second }}
-        </div>
-        {% endif %}
-        {% if page.footer_third %}
-        <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
-          {{ page.footer_third }}
-        </div>
-        {% endif %}
-        {% if page.footer_fourth %}
-        <div class="{{ 'footer-block col-sm-' ~ footer_col }}">
-          {{ page.footer_fourth }}
-        </div>
-        {% endif %}
       </div>
     </div>
-  </div>
   {% endif %}
 
   <footer id="colophon" class="site-footer" role="contentinfo">
