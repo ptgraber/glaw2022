@@ -66,3 +66,30 @@
        top: 45px;  
    }
    ------*/
+
+   // The Library Menus
+
+   #block-mainnavigation, #block-mainnavigation-2, #block-mainnavigation-3 {
+    // border: 1px red solid;
+     padding-left: 15px;
+
+      h2 {
+         margin: .25vmin 0vmin 1.25vmin 0vmin;
+         font-size: 2.0vmin;
+      }
+
+      ul {
+         font-size: 1.5vmin;
+         margin: 0;
+         padding: 0;
+      }
+
+      ul li {
+       padding-top: 20px;
+       list-style-type: none;
+       border-bottom: 1px #ccc solid;
+       text-transform: uppercase;
+
+      }
+
+   }

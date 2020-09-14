@@ -181,7 +181,7 @@
         {% else %}
           {% set primary_col = 12 %}
         {% endif %}
-        <div id="primary" class="{{ 'content-area col-sm-' ~ primary_col }}">
+        <div id="primary" class="{{ 'content-area col-md-' ~ primary_col }}">
           <section id="content" role="main" class="clearfix">
             {% if show_breadcrumbs %}
               {% if breadcrumb %}
@@ -206,7 +206,7 @@
           </section>
         </div>
         {% if page.sidebar_first %}
-          <aside id="sidebar" class="col-sm-3" role="complementary">
+          <aside id="sidebar" class="col-md-3" role="complementary">
            {{ page.sidebar_first }}
           </aside>
         {% endif %}

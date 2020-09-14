@@ -1,0 +1,176 @@
+/* The Home page */
+
+//Home Page Sliders
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+#slidebox, #slidebox ul.slides {
+  height: 49vh;
+  display: none;
+}
+
+#slidebox ul.slides li, #slidebox ul.slides li img {
+  height: auto;
+}
+
+.home-about {
+  height: auto;
+}
+
+.home-practice {
+  background: #23333f;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 35px;
+  }
+
+  // Flexislider Overrides
+#slidebox {
+  max-height: 63.0vh;
+}
+
+#slidebox,
+ul.slides {
+  height: 78vh;
+}
+
+ul.slides img {
+
+}
+
+.home-practice {
+  background: #23333f;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 35px;
+ }
+
+ #preface-area {
+  height: auto;
+  overflow: default;
+  }
+
+}
+
+/*----------The Homepage----------*/
+.home-about {
+  height: 500px;
+}
+
+.home-practice {
+  background: #23333f;
+  height: 500px;
+  padding-top: 10px;
+  padding-left: 35px;
+ }
+
+.practice_areas {
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-size: 1.5vw;
+}
+
+.field--name-field-subtitle {
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+}
+
+.home-contact {
+  background: rgb(231, 228, 212);
+  padding-top: 25px;
+
+   .call-out {
+      padding-right: 40px;
+     //border-right: 1px #ccc solid;
+   }
+   
+   .the-form {
+      padding: 25px;
+      text-align: left;
+   }
+
+    h3 {
+      font-size: 23px;
+      color: #000;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #7c7c7c;
+    }
+
+    .webform-submission-form {
+      padding: 20px;
+      border: 1px rgb(177, 177, 177) solid;
+      box-shadow: 3px 3px 15px #999;
+      color: #575757;
+      border-radius: 10px;
+
+        .webform-actions {
+           text-align: right;
+        }      
+  }
+}
+
+
+/*------Home -----------*/
+
+.home-service-block div {
+    margin: 35px 35px 0px 35px;
+    color: #000;
+    border-radius: 10px;
+    border: 1px #000 solid;
+    padding: 20px;
+    background: #ebd7d1;
+    font-weight: bold;
+}
+
+/*---Home Page Slides ---*/
+
+#s1 .flex-caption {
+  left: 35%;
+  top: 30%;
+  width: 42vmin;
+  font-size: 1.2em;
+
+  h2 {
+      margin: 2vmin 0vmin 2.125vmin 0vmin;
+      font-size: 7vmin;
+      line-height: 6.5vmin;
+  }
+  a {
+      margin-top: 3vmin;
+  }
+}
+
+#s2 .flex-caption {
+  left: 70%;
+  text-align: left;
+  top: 30%;
+  width: 55vmin;
+  font-size: 1.2em;
+ 
+  h2 {
+      margin: 2vmin 0vmin 2vmin 0vmin;
+      font-size: 5.5vmin;
+      line-height: 5.25vmin;
+  }
+  a {
+    margin-top: 3vmin;
+    text-align: center;
+}
+}
+
+#s3 .flex-caption {
+  left: 70%;
+  top: 30%;
+  width: 60vmin;
+
+  h2 {
+      margin: 2vmin 0vmin 2vmin 0vmin;
+      font-size: 5.5vmin;
+      line-height: 5.25vmin;
+  }
+}
