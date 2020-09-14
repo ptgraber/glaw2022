@@ -185,34 +185,34 @@
         {% endif %}
         <div id="primary" class="{{ 'content-area col-md-' ~ primary_col }}">
           <section id="content" role="main" class="d">
-            {% if show_breadcrumbs %}
-              {% if breadcrumb %}
-                <div id="breadcrumbs">
-                  {{ breadcrumb }}
+              {% if show_breadcrumbs %}
+                {% if breadcrumb %}
+                  <div id="breadcrumbs">
+                    {{ breadcrumb }}
+                  </div>
+                {% endif %}
+              {% endif %}
+              {{ messages }}
+              {% if page.content_top %}
+                <div id="content_top">
+                  {{ page.content_top }}
                 </div>
               {% endif %}
-            {% endif %}
-            {{ messages }}
-            {% if page.content_top %}
-              <div id="content_top">
-                {{ page.content_top }}
-               </div>
               
-            {% endif %}
-            <div id="content-wrap">
-              {{ page.help }}
-              {{ page.content}}
-            </div>
+              <div id="content-wrap">
+                {{ page.help }}
+                {{ page.content}}
+              </div>
           </section>
          </div>
-              <div class="col-md-3 d">
-                {% if page.sidebar_first %}
-              <aside id="sidebar" role="complementary">
-               {{ page.sidebar_first }}
-          </aside>
-           {% endif %}
-          </div>
-      </div>
+            <div class="col-md-3">
+              {% if page.sidebar_first %}
+                <aside id="sidebar" role="complementary">
+                    {{ page.sidebar_first }}
+                </aside>
+              {% endif %}
+            </div>
+        </div>
     </div>
   </div>
 
