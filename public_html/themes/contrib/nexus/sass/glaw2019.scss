@@ -14,6 +14,8 @@
 @import 'typography';
 @import 'navigation';
 @import 'forms';
+@import 'homepage';
+@import 'breadcrumbs';
 
 
 .primelead {
@@ -26,7 +28,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
   .slicknav_menu {
-    background: #36002b;
+    background: #270009;
     color: #dfdfdf;
   }
 
@@ -167,19 +169,19 @@
   #main-content .service-sublink,
   #main-content .service-sublink a {
     margin-left: 0;
-    font-size: .8em;
+    font-size: 1em;
     float: left;
     color: #202020;
     padding: 4px 8px 4px 8px;
     border-radius: 10px;
-    background: #f5d38e;
   }
-
 
   .site-footer {
-    text-align: center;
+    text-align: left;
   }
-}
+  
+  
+}  
 
 
 /*-------------Services-------------*/
@@ -416,6 +418,7 @@ a:hover {
   background-color: #440d1b;
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
   border-top: 3px #DEBBC7 solid;
+  text-align: left;
 
   h3 {
       color: #d8d8d8;
@@ -424,8 +427,8 @@ a:hover {
 
 .site-footer {
   background: #030303;
+  text-align: left;
 }
-
 
 
 
@@ -472,20 +475,7 @@ a:hover {
   margin-bottom: 5vmin;
 }
 
-// Flexislider Overrides
-#slidebox {
-  max-height: 63.20vh;
-  // border: 1px red solid
-}
 
-#slidebox,
-ul.slides {
-  height: 80vh;
-}
-
-ul.slides img {
-  // border: 1px #fff solid;
-}
 
 /* The PreFace */
 
@@ -541,157 +531,10 @@ ul.slides img {
   text-shadow: 2px 2px 3px #1d0011;
 }
 
-/*--------BreadCrumbs----------*/
-
-#highlighted-block {
-  padding: 0;
-  background: #f6f6f6
-}
-
-#breadcrumbs {
-  //  background: #ccc;
-  // margin-top: -3em;
-  margin-left: -.90em;
-  //  margin-bottom: 3em;
-  font-size: .98em;
-  // padding: 0;
-  font-weight: 800;
-}
-
-.breadcrumb {
-  background: #f6f6f6;
-  //  padding: 0;
-  margin: 0;
-}
-
-.breadcrumb a {
-  color: #000;
-}
 
 
-/*----------The Homepage----------*/
-.home-about {
-
-  height: 500px;
-}
-
-.home-practice {
-  background: #23333f;
-  height: 500px;
-  padding-top: 10px;
-  padding-left: 35px;
- }
-
-.practice_areas {
-    text-transform: uppercase;
-    color: #f2f2f2;
-    font-size: 1.5vw;
-}
-
-.field--name-field-subtitle {
-    font-weight: bold;
-    margin: 0px 0px 15px 0px;
-}
-
-.home-contact {
-  background: rgb(231, 228, 212);
-  padding-top: 25px;
-
-   .call-out {
-      padding-right: 40px;
-     //border-right: 1px #ccc solid;
-   }
-   
-   .the-form {
-      padding: 25px;
-      text-align: left;
-   }
-
-    h3 {
-      font-size: 23px;
-      color: #000;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
-
-    p {
-      font-size: 16px;
-      color: #7c7c7c;
-    }
-
-    .webform-submission-form {
-      padding: 20px;
-      border: 1px rgb(177, 177, 177) solid;
-      box-shadow: 3px 3px 15px #999;
-      color: #575757;
-      border-radius: 10px;
-
-        .webform-actions {
-           text-align: right;
-        }      
-  }
-}
 
 
-/*------Home -----------*/
-
-.home-service-block div {
-    margin: 35px 35px 0px 35px;
-    color: #000;
-    border-radius: 10px;
-    border: 1px #000 solid;
-    padding: 20px;
-    background: #ebd7d1;
-    font-weight: bold;
-}
-
-/*---Home Page Slides ---*/
-
-#s1 .flex-caption {
-  left: 35%;
-  top: 30%;
-  width: 42vmin;
-  font-size: 1.2em;
-
-  h2 {
-      margin: 2vmin 0vmin 2.125vmin 0vmin;
-      font-size: 7vmin;
-      line-height: 6.5vmin;
-  }
-  a {
-      margin-top: 3vmin;
-  }
-}
-
-#s2 .flex-caption {
-  left: 70%;
-  text-align: left;
-  top: 30%;
-  width: 55vmin;
-  font-size: 1.2em;
- 
-  h2 {
-      margin: 2vmin 0vmin 2vmin 0vmin;
-      font-size: 5.5vmin;
-      line-height: 5.25vmin;
-  }
-  a {
-    margin-top: 3vmin;
-    text-align: center;
-}
-}
-
-#s3 .flex-caption {
-  left: 70%;
-  top: 30%;
-  width: 60vmin;
-
-  h2 {
-      margin: 2vmin 0vmin 2vmin 0vmin;
-      font-size: 5.5vmin;
-      line-height: 5.25vmin;
-  }
-}
 
   /*----Disclaimer --*/
 
@@ -705,6 +548,17 @@ ul.slides img {
     padding: 0em;
   }
    
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+      p.disclaimer {
+      text-align: justify;
+      font-size: .38em;
+      line-height: 1em;
+      font-weight: 800;
+      color: #000;
+      margin: 5em 0em 0em 0em;
+      padding: 0em;
+    }
+  }
 
     #main-content p.disclaimer {
       color: #7c7c7c;
