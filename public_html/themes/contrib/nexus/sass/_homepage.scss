@@ -5,7 +5,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
 #slidebox, #slidebox ul.slides {
-  height: 49vh;
+  height: 63vh;
   display: none;
 }
 
@@ -58,10 +58,16 @@ ul.slides img {
 }
 
 .home-practice {
-  background: #23333f;
-  height: 500px;
+  background: #625559;
+  background-image: url("/sites/default/files/2020-08/home.jpg");
+  height: 525px;
+  background-blend-mode: multiply;
   padding-top: 10px;
   padding-left: 35px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
  }
 
 .practice_areas {
@@ -129,11 +135,15 @@ ul.slides img {
 
 /*---Home Page Slides ---*/
 
+#slidebox { 
+  max-height: 100%;
+  }
+
 #s1 .flex-caption {
   left: 35%;
   top: 30%;
   width: 42vmin;
-  font-size: 1.2em;
+  font-size: 1.35em;
 
   h2 {
       margin: 2vmin 0vmin 2.125vmin 0vmin;
@@ -147,10 +157,10 @@ ul.slides img {
 
 #s2 .flex-caption {
   left: 70%;
-  text-align: left;
+  text-align: center;
   top: 30%;
   width: 55vmin;
-  font-size: 1.2em;
+  font-size: 1.35em;
  
   h2 {
       margin: 2vmin 0vmin 2vmin 0vmin;
