@@ -2,55 +2,7 @@
 
 //Home Page Sliders
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
 
-#slidebox, #slidebox ul.slides {
-  height: 63vh;
-  display: none;
-}
-
-#slidebox ul.slides li, #slidebox ul.slides li img {
-  height: auto;
-}
-
-.home-about {
-  height: auto;
-}
-
-.home-practice {
-  background: #23333f;
-  height: auto;
-  padding-top: 10px;
-  padding-left: 35px;
-  }
-
-  // Flexislider Overrides
-#slidebox {
-  max-height: 63.0vh;
-}
-
-#slidebox,
-ul.slides {
-  height: 78vh;
-}
-
-ul.slides img {
-
-}
-
-.home-practice {
-  background: #23333f;
-  height: auto;
-  padding-top: 10px;
-  padding-left: 35px;
- }
-
- #preface-area {
-  height: auto;
-  overflow: default;
-  }
-
-}
 
 /*----------The Homepage----------*/
 .home-about {
@@ -60,15 +12,18 @@ ul.slides img {
 .home-practice {
   background: #625559;
   background-image: url("/sites/default/files/2020-08/home.jpg");
-  height: 525px;
   background-blend-mode: multiply;
   padding-top: 10px;
   padding-left: 35px;
+  padding-bottom: 25px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+   h2 {
+  margin: 1vmin 0vmin 0vmin 0vmin;
  }
+}
 
 .practice_areas {
     text-transform: uppercase;
@@ -87,7 +42,6 @@ ul.slides img {
 
    .call-out {
       padding-right: 40px;
-     //border-right: 1px #ccc solid;
    }
    
    .the-form {
@@ -120,6 +74,98 @@ ul.slides img {
   }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  h2 div {
+    font-size: 1.0em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #slidebox, #slidebox ul.slides {
+    display: none;
+  }
+
+  #slidebox ul.slides li, #slidebox ul.slides li img {
+    height: auto;
+  }
+
+  .home-about {
+    height: auto;
+  }
+
+  // Flexislider Overrides
+  #slidebox {
+    max-height: 63.0vh;
+  }
+
+  #slidebox,
+  ul.slides {
+    height: 78vh;
+  }
+
+  #preface-area {
+    height: auto;
+    overflow: default;
+    }
+
+  .home-practice {
+    background: #625559;
+    background-image: url("/sites/default/files/2020-08/home.jpg");
+    //height: 525px;
+    background-blend-mode: multiply;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 2.5em;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+    
+  h2.practice_areas{
+        text-transform: uppercase;
+        color: #f2f2f2;
+        font-size: 1.25em;
+  }
+
+
+  #preface-area .page-tag {
+    left: 3%;
+    top: 25%;
+  }
+
+  #preface-area .page-tag h2 {
+    font-size: 24px;
+  }
+
+  #preface-area .page-tag h3 {
+    font-size: 24px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  #main-content .service-sublink,
+  #main-content .service-sublink  {
+    margin-left: 0;
+    font-size: 1em;
+    float: left;
+    color: #202020;
+    padding: 4px 8px 4px 8px;
+    border-radius: 10px;
+  }
+
+  .home-contact {
+      margin: 0px;
+   //   border: 1px red solid;
+      padding: 0 0 0 .5em;
+  }
+
+  .home-contact h3 {
+      font-size: 1.4em;
+      margin: 1.5em 0em 0em 0em;
+      padding: 0;
+  }
+}
 
 /*------Home -----------*/
 
@@ -183,4 +229,24 @@ ul.slides img {
       font-size: 5.5vmin;
       line-height: 5.25vmin;
   }
+}
+
+/* The PreFace */
+
+#preface-area {
+  margin: 0 0 0vmin 0;
+  padding: 0 0 0vmin 0;
+  background: #f1f1f1;
+  overflow: hidden;
+  border-top: 0px silver solid;
+  border-bottom: 1px #25071c solid;
+  position: relative;
+  height: 355px;
+}
+
+#preface-area.front {
+  height: auto;
+  border: 0px;
+  margin: 0;
+  padding: 0;
 }

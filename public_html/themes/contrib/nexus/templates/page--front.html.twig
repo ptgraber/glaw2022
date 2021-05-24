@@ -131,7 +131,7 @@
     {% endif %}
   {% endif %}
 
-  <div id="main-content" class="">
+  <div id="main-content">
     <div class="container">
       <div class="row">
         {% if page.sidebar_first %}
@@ -167,7 +167,7 @@
   
 
   {% if page.preface_first or page.preface_second or page.preface_third %}
-        <div id="preface-area" class="front">
+        <div class="front">
             <div class="row">
             {# All homepage slices are in Preface Second #}
           {% if page.preface_second %}
@@ -195,7 +195,6 @@
     </div>
   {% endif %}
 
-  
 
   {% if page.footer %}
     <div id="footer-block">

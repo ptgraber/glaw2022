@@ -1,5 +1,18 @@
 /* GLaw Forms 2020 */
 
+input.form-text, textarea.form-textarea, select.form-select {
+  border: 1px rgb(136, 136, 136) solid;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #edit-name, #edit-email, #edit-describe-your-issue {
+  width: 300px; 
+  }
+  #edit-describe-your-issue {
+      height: 150px;
+  }
+}
+
 .form-actions {
     text-align: right;
 }
