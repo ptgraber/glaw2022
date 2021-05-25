@@ -92,7 +92,7 @@
   {% endif %}
   <div{{ content_attributes }}>
      {% if content.field_subtitle %}
-        <h2>{{ content.field_subtitle }}</h2
+        <h2>{{ content.field_subtitle }}</h2>
       {% endif %}
      {{ content | without('field_tagline', 'field_subtitle') }}
   </div>
