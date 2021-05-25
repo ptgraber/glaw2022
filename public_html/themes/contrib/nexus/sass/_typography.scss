@@ -17,6 +17,8 @@ h2, h2 a:link, h2 a:visited {
  @media screen and (min-width: 320px) and (max-width: 480px){
     h2, h2 a:link, h2 a:visited {
        font-size: .8em;
+       margin: 0em 0em -.5em 0em;
+       padding: 0;
     }
 }
 
@@ -48,15 +50,15 @@ h4.service-title {
 
 @media screen and (min-width: 320px) and (max-width: 480px)  {
   h1.page-title {
-    font-size: 5.25vmin;
-    margin: 0vmin 0vmin 3.5vmin 0vmin;
+    font-size: 3.85em;
+    line-height: 1em;
     color: #7a150b;
     }
 
   h4.service-title {
       display: none;
   }
-}
+
 
 .service-title {
   font-size: .91em;
@@ -81,7 +83,12 @@ color: #4e1710;
   line-height: 1.60em;
 }
 
-
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+    ol li {
+      font-size: 1.8em;
+      line-height: 1.4em;
+    }
+}
 /*---Lead ----*/
 
 .lead {
@@ -101,4 +108,5 @@ p.lead-alt {
 
 body {
  color: #5d5d5d;
+}
 }
