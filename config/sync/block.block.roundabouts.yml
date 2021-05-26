@@ -12,7 +12,7 @@ dependencies:
 id: roundabouts
 theme: nexus
 region: preface_third
-weight: -5
+weight: -8
 provider: null
 plugin: 'block_content:a1c1047d-488a-4450-9e00-c7071ebb7515'
 settings:

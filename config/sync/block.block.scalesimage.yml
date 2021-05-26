@@ -1,4 +1,4 @@
-uuid: d6d47a37-e634-43c2-aa33-9e05ab459421
+uuid: b1f5c396-7af1-4e27-96f6-9ee816594abd
 langcode: en
 status: true
 dependencies:
@@ -6,34 +6,26 @@ dependencies:
     - 'block_content:image_block:022fc74e-7a72-4342-89ee-3dbdb24c593f'
   module:
     - block_content
-    - node
     - system
   theme:
     - nexus
-id: pageimage
+id: scalesimage
 theme: nexus
 region: preface_third
-weight: -11
+weight: 0
 provider: null
 plugin: 'block_content:022fc74e-7a72-4342-89ee-3dbdb24c593f'
 settings:
   id: 'block_content:022fc74e-7a72-4342-89ee-3dbdb24c593f'
-  label: 'Resources Image'
+  label: Scales-Image
   provider: block_content
   label_display: '0'
   status: true
   info: ''
   view_mode: full
 visibility:
-  node_type:
-    id: node_type
-    bundles:
-      page: page
-    negate: false
-    context_mapping:
-      node: '@node.node_route_context:node'
   request_path:
     id: request_path
-    pages: "/resources\r\n/practice-areas\r\n"
+    pages: '/practice-areas*'
     negate: false
     context_mapping: {  }

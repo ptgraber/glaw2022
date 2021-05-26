@@ -8,6 +8,9 @@ config:
   config:
     php: php.ini
 services:
+  composer:
+    type: php
+    composer_version: 2
   appserver:
     build:
       - composer install

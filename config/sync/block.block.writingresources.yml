@@ -1,23 +1,23 @@
-uuid: 22c4fc30-7ba0-46bf-95e0-32e5c8d53ce3
+uuid: e2a8a036-c752-49b2-84c8-e8f553ec47c2
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:image_block:2802a5b3-3cc8-4663-8016-c1ffbc8a9f34'
+    - 'block_content:image_block:aff7e9c6-cd31-481e-93e5-b591ea55102f'
   module:
     - block_content
     - system
   theme:
     - nexus
-id: downtownimage
+id: writingresources
 theme: nexus
 region: preface_third
-weight: -10
+weight: 0
 provider: null
-plugin: 'block_content:2802a5b3-3cc8-4663-8016-c1ffbc8a9f34'
+plugin: 'block_content:aff7e9c6-cd31-481e-93e5-b591ea55102f'
 settings:
-  id: 'block_content:2802a5b3-3cc8-4663-8016-c1ffbc8a9f34'
-  label: 'Downtown Image'
+  id: 'block_content:aff7e9c6-cd31-481e-93e5-b591ea55102f'
+  label: 'Writing Resources'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /consult-request
+    pages: '/resources*'
     negate: false
     context_mapping: {  }

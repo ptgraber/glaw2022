@@ -12,7 +12,7 @@ dependencies:
 id: wiltedrose
 theme: nexus
 region: preface_third
-weight: -6
+weight: -9
 provider: null
 plugin: 'block_content:c0d080a3-5a7a-4321-94db-3529d27531c5'
 settings:

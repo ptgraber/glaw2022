@@ -12,7 +12,7 @@ dependencies:
 id: familylawguide
 theme: nexus
 region: preface_third
-weight: 0
+weight: -5
 provider: null
 plugin: 'block_content:24b4b666-5fa7-4ed6-8340-87e3b8199d3b'
 settings:
