@@ -788,20 +788,6 @@ $settings['entity_update_backup'] = TRUE;
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
-/**
- * Load local development override configuration, if available.
- *
- * Use settings.local.php to override variables on secondary (staging,
- * development, etc) installations of this site. Typically used to disable
- * caching, JavaScript/CSS compression, re-routing of outgoing emails, and
- * other things that should not happen on development and testing sites.
- *
- * Keep this code block at the end of this file to take full effect.
- */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
 $config_directories['sync'] = '../glaw2020/config/sync';
 $databases['default']['default'] = array (
   'database' => 'egraber2020_drupal8',
@@ -813,3 +799,18 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
 );
+
+/**
+ * Load local development override configuration, if available.
+ *
+ * Use settings.local.php to override variables on secondary (staging,
+ * development, etc) installations of this site. Typically used to disable
+ * caching, JavaScript/CSS compression, re-routing of outgoing emails, and
+ * other things that should not happen on development and testing sites.
+ *
+ * Keep this code block at the end of this file to take full effect.
+ */
+#
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+}
