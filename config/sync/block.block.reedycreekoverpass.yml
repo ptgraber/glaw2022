@@ -12,7 +12,7 @@ dependencies:
 id: reedycreekoverpass
 theme: nexus
 region: preface_third
-weight: -7
+weight: -10
 provider: null
 plugin: 'block_content:9fb5b3d6-6552-4774-850d-100d45c04ef0'
 settings:

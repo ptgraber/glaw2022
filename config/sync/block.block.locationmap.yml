@@ -12,7 +12,7 @@ dependencies:
 id: locationmap
 theme: nexus
 region: preface_third
-weight: 0
+weight: -7
 provider: null
 plugin: 'block_content:70c6b503-8bbe-4262-88cf-698a2c705317'
 settings:
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /contact-us
+    pages: "/contact-us\r\n"
     negate: false
     context_mapping: {  }

@@ -11,7 +11,7 @@ dependencies:
 id: navigate
 theme: nexus
 region: preface_third
-weight: -9
+weight: -6
 provider: null
 plugin: 'block_content:0d2b31e6-1e71-452a-903e-46a5309abef4'
 settings:

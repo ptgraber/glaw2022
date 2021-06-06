@@ -4,6 +4,7 @@ config:
   webroot: public_html
   drush: ^9
   php: '7.2'
+  composer_version: "2.0.12"
   xdebug: false
   config:
     php: php.ini
