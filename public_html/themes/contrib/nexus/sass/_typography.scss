@@ -10,7 +10,6 @@ h2, h2 a:link, h2 a:visited {
  font-weight: 600;
  margin: 4vmin 0vmin 2vmin 0vmin;
  text-decoration: none;
- font-size: 1.1em;
  color: #4e1710;
  }
 
@@ -24,14 +23,26 @@ h2, h2 a:link, h2 a:visited {
 
 h3 {
   font-weight: 800;
-  font-size: 1.05em;
-  margin-top: 1.85em;
+  font-size: .96em;
+  line-height: 1.2em;
+  //margin-top: 1.85em;
   color: #23333f
 }
 
 h3 a {
   text-decoration: none;
 }
+
+h3.resource_section {
+    margin: 0em 0em .5em 0em;
+}
+
+.service-title a:link, .service-title a:visited {
+  margin-top: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #4e1710;
+  }
 
 h4 {
   font-weight: 800;
@@ -68,7 +79,7 @@ h4.service-title {
   font-weight: bold;
 }
 
-h3.service-title a {
+.service-title a:link, .service-title a:visited {
 margin: 0;
 padding: 0;
 font-size: 1.06em;

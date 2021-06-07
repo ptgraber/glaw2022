@@ -5,7 +5,7 @@
 
 /* Debugging */
 .d {
-  border: 1px red solid;
+ // border: 1px red solid;
 }
 
 /* Import Partials */
@@ -26,9 +26,19 @@
 /* Cell phones */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .head-container, .slicknav_menu
+   {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+}
   #site-logo {
     margin-left: -.5em;
   }
+  #main-content {
+    padding-top: 23em !important;
+}
 
   #block-mainnavigation-2, #block-mainnavigation {
       display: none;
@@ -58,7 +68,7 @@
      z-index: 1000;
   }
 
-  .slicknav_nav a:link  {
+  .slicknav_nav a:link, .slicknav_nav a:visited  {
       color: #f3f3f3;
       border-bottom: 1px #818181 solid;
       z-index: 1000;
@@ -281,6 +291,7 @@
   }
   .site-footer {
     text-align: left;
+    padding: 10px;
   }
 }  
 
@@ -627,10 +638,10 @@ a:hover {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   //letter-spacing: .01em;
-  font-size: 3.25em;
+  font-size: 3.45em;
   line-height: 1.25em;
   font-weight: 800;
-  margin: 0;
+ // margin: 0;
   padding: 0;
   text-shadow: 2px 2px 3px #1d0011;
 }

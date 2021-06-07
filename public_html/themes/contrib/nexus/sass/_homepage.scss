@@ -11,11 +11,11 @@
 
 .home-practice {
   background: #625559;
-  background-image: url("/sites/default/files/2020-08/home.jpg");
+  background-image: url("/~egraber2020/sites/default/files/2020-08/home.jpg");
   background-blend-mode: multiply;
   padding-top: 10px;
   padding-left: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 45px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -38,7 +38,8 @@
 
 .home-contact {
   background: rgb(231, 228, 212);
-  padding-top: 25px;
+  padding-top: 4em;
+  padding-bottom: 4em;
 
    .call-out {
       padding-right: 40px;
@@ -57,14 +58,15 @@
     }
 
     p {
-      font-size: 16px;
+       font-size: .85em;
+       font-weight: bold;
       color: #7c7c7c;
     }
 
     .webform-submission-form {
       padding: 20px;
       border: 1px rgb(177, 177, 177) solid;
-      box-shadow: 3px 3px 15px #999;
+      box-shadow: 1px 1px 10px #999;
       color: #575757;
       border-radius: 10px;
 
@@ -77,8 +79,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
   .home-main-content {
-     //border: 1px red solid;
-     height: 400px;
+     padding-bottom: 3em;
   }
 
   .home-contact p {
@@ -88,7 +89,7 @@
 @media screen and (min-width: 320px) and (max-width: 480px) {
   h2 div {
     padding-top: .35em;
-    font-size: 1.18em;
+    font-size: 1.28em;
     line-height: 1.2em;
     font-weight: bold;
   }
@@ -121,7 +122,7 @@
     }
 
   .home-practice {
-    background: #625559;
+    background: #131313;
     background-image: url("/sites/default/files/2020-08/home.jpg");
     //height: 525px;
     background-blend-mode: multiply;
@@ -136,14 +137,14 @@
     
   h2.practice_areas{
         text-transform: uppercase;
-        color: #f2f2f2;
+        color: #d8d8d8;
         font-size: 1.25em;
   }
 
   .home-service-block div {
     margin: 35px 35px 0px 35px;
     color: #000;
-    border-radius: 10px;
+    border-radius: 15px;
     border: 1px #000 solid;
     padding: 10px !important;
     background: #ebd7d1;
@@ -183,9 +184,10 @@
   }
 
   .home-contact h3 {
-      font-size: 1.4em;
-      margin: 1.5em 0em 0em 0em;
-      padding: 0;
+    font-size: 1.45em;
+    font-weight: bold;
+    margin: 1.5em 0em 0em 0em;
+    padding: 0;
   }
 }
 
@@ -209,7 +211,7 @@
 
 #s1 .flex-caption {
   left: 38%;
-  top: 50%;
+  top: 48%;
   width: 42vmin;
   font-size: 1.35em;
 
@@ -245,11 +247,21 @@
   left: 70%;
   top: 40%;
   width: 60vmin;
+  font-size: 1.35em;
 
   h2 {
       margin: 2vmin 0vmin 2vmin 0vmin;
       font-size: 5.5vmin;
       line-height: 5.25vmin;
+  }
+
+  a {
+    margin-top: 3vmin;
+    text-align: center;
+
+    .frmore {
+      background: red;
+    }
   }
 }
 
