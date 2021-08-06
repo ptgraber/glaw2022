@@ -34,10 +34,10 @@
     z-index: 999999;
 }
   #site-logo {
-    margin-left: -.5em;
+    margin-left: 1.2em;
   }
   #main-content {
-    padding-top: 23em !important;
+    padding-top: 21.5em !important;
 }
 
   #block-mainnavigation-2, #block-mainnavigation {
@@ -364,7 +364,8 @@
 .attorney {
   padding-bottom: 3vmin;
  // border-bottom: 1px #b9b9b9 solid;
-  margin-bottom: 0vmin;
+ margin-bottom: 6em;
+ border-bottom: 1px #ccc solid;
 }
 
 .att-name {
@@ -542,7 +543,7 @@ a:hover {
 #bottom {
   background-color: #35100b;
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
-  border-top: 3px #DEBBC7 solid;
+  border-top: 0;
   text-align: left;
 
   h3 {
