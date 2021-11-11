@@ -125,7 +125,7 @@
 
   #main-content p,
   #main-content .service {
-    font-size: 15px;
+   // font-size: 15px;
     letter-spacing: .0em;
     line-height: 1.65em;
   }
@@ -520,7 +520,7 @@ a:hover {
 #main-content {
   padding: 3em;
   background: #e7e3da;
-  font-size: 1.75vmin;
+ // font-size: 1.75vmin;
   line-height: 3.35vmin;
 }
 
@@ -631,7 +631,8 @@ a:hover {
   position: absolute;
   z-index: 10000;
   left: 10%;
-  top: 33%;
+  top: 39%;
+  min-width: 600px;
   // background: #900000;
 }
 
@@ -639,7 +640,7 @@ a:hover {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
   //letter-spacing: .01em;
-  font-size: 3.45em;
+  font-size: 3.0em;
   line-height: 1.25em;
   font-weight: 800;
  // margin: 0;
