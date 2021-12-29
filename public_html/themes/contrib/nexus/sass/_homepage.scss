@@ -22,7 +22,7 @@
   background-size: cover;
    h2 {
   margin: 1vmin 0vmin 0vmin 0vmin;
- }
+    }
 }
 
 .practice_areas {
@@ -33,7 +33,7 @@
 
 .field--name-field-subtitle {
     font-weight: bold;
-    margin: -1em 0em 1em 0em;
+    margin: 0em 0em 1em 0em;
     font-size: 1.25em;
 }
 
@@ -74,7 +74,7 @@
         .webform-actions {
            text-align: right;
         }      
-  }
+     }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -88,7 +88,7 @@
       .webform-actions {
          text-align: right;
       }      
-}
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
@@ -217,8 +217,9 @@
     padding: 12px;
     background: #ebd7d1;
     font-weight: bold;
+  }
 }
-}
+
 /*---Home Page Slides ---*/
 
 #slidebox { 
@@ -228,8 +229,8 @@
   }
 
 #s1 .flex-caption {
-  left: 38%;
-  top: 43%;
+  left: 45%;
+  top: 39%;
   width: 46vmin;
   font-size: 1.35em;
 
@@ -246,7 +247,7 @@
 #s2 .flex-caption {
   left: 68%;
   text-align: center;
-  top: 58%;
+  top: 49%;
   width: 75vmin;
   font-size: 1.25em;
  

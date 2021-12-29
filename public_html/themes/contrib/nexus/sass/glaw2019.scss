@@ -22,174 +22,15 @@
   margin-top: 3px;
 }
 
-
-/* Cell phones */
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-  .head-container, .slicknav_menu
-   {
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 999999;
-}
-  #site-logo {
-    margin-left: 1.2em;
-  }
-  #main-content {
-    padding-top: 21.5em !important;
-}
-
-  #block-mainnavigation-2, #block-mainnavigation {
-      display: none;
-  }
-
-  .doverlay {
-      display: none;
-  }
-
-  #preface-area {
-      display: none;
-  }
-
-  .leader {
-      display: none;
-  }
-
-  .slicknav_menu {
-    background-color: #35100b;
-    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
-    color: #dfdfdf;
-
-  }
-
-  .slicknav_menu a {
-     background: transparent;
-     z-index: 1000;
-  }
-
-  .slicknav_nav a:link, .slicknav_nav a:visited  {
-      color: #f3f3f3;
-      border-bottom: 1px #818181 solid;
-      z-index: 1000;
-  }
-
-  .slicknav_btn {
-    background-color: #030303;
-    margin: 0;
-    padding: .25em;
-  }
-
-  .top .float-right,
-  .attorney .float-right {
-    padding: 0em;
-    margin-bottom: 25px;
-    display: block;
-    width: 100%;
-  }
-
-  .leader .primelead,
-  .leader span.badge-info {
-    display: none;
-  }
-
-  .leader span.tel-number {
-    margin-top: -35px;
-  }
-
-  .tag {
-    display: none;
-  }
-
-  .head-container {
-    height: auto;
-  }
-
-  .breadcrumb {
-    display: none;
-  }
-
-  #footer-menu {
-    display: none;
-  }
-
-  #site-logo {
-    margin-top: 15px;
-  }
-
-  #main-content .service {
-    padding: 1em 0em .65em 0em;
-    margin: .25em 0em 1em 0em;
-    border-bottom: 1px #e4e4e4 solid;
-   }
-
-  #main-content p,
-  #main-content .service {
-   // font-size: 15px;
-    letter-spacing: .0em;
-    line-height: 1.65em;
-  }
-  #main-content p.lead {
-      margin-top: -2em;
-      margin-bottom: 2.15em;
-  }
-
-  #main-content .service-top {
-    margin-top: -10px;
-    padding-top: 0;
-  }
-
-  #main-content .service ul {
-    margin-left: 25px;
-  }
-
-  #main-content .service ul.serv-list-b {
-    margin-top: -26px;
-    padding: 0px;
-  }
-
-  #main-content .service-note {
-    margin: 20px 0px 20px 0px;
-    padding: 0px;
-  }
-
-  #main-content h1.page-title {
-   // font-size: 3.55em;
-    margin: 20px 0px 20px 0px;
-    font-weight: 800;
-    font-weight: bold;
-  }
-
-  #main-content h2 {
-    font-size: 22px;
-    font-weight: 800;
-    line-height: 22px;
-  }
-
-  @media screen and (min-width: 320px) and (max-width: 480px) {
-    #main-content h2 {
-      font-size: 22px;
-      font-weight: 800;
-      line-height: 22px;
-      padding-bottom: 1em;
-    }
-  }
-
-  #main-content .att-name {
+#main-content .att-name {
     margin-bottom: 20px;
   }
 
   #main-content h3, .guide h3
   #main-content .att-name h3 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 35px 0px 15px 0px;
   }
-
-  @media screen and (min-width: 320px) and (max-width: 480px) { 
-    #main-content .att-name h3 {
-      font-size: 2.75em;
-      margin: 15px 0px 15px 0px;
-    }
 
     .att-name h4 strong {
       font-size: 1.3em;
@@ -225,7 +66,7 @@
           padding: 0;
       }
     }
-  }
+  
 
   #main-content h4 {
     font-size: 12px;
@@ -234,12 +75,10 @@
   }
 
   #main-content .service h3.service-title {
-    margin: 0;
+    margin: 18px 0px 0px 0px;
     padding: 0;
   }
 
-
-  
   @media screen and (min-width: 320px) and (max-width: 480px) {
 
     #main-content .service {
@@ -293,7 +132,7 @@
     text-align: left;
     padding: 10px;
   }
-}  
+
 
 
 /*-------------Services-------------*/
@@ -362,8 +201,7 @@
 /*---Attorney --*/
 
 .attorney {
-  padding-bottom: 3vmin;
- // border-bottom: 1px #b9b9b9 solid;
+ padding-bottom: 3vmin;
  margin-bottom: 6em;
  border-bottom: 1px #ccc solid;
 }
@@ -375,13 +213,20 @@
 
 .att-name h3 {
   width: 730px;
-  color:  #23333f;
+  color: #23333f;
 }
 
 .attorney p.bio {
   float: left;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px){
+ #main-content .att-name h3 {
+    font-size: 24px;
+    margin: 25px 0px 15px 0px;
+    color: #4e1710;
+    }
+}
 
 /*---Staff ---*/
 
@@ -520,8 +365,8 @@ a:hover {
 #main-content {
   padding: 3em;
   background: #e7e3da;
- // font-size: 1.75vmin;
-  line-height: 3.35vmin;
+  font-size: 15px;
+  line-height: 28px;
 }
 
 .content-area {
@@ -685,9 +530,153 @@ a:hover {
  
 
     #main-content p.disclaimer {
-    //  color: #5d5c5c;
       margin-bottom: 0px;
-      font-size: 1.2em;
+      font-size:.75em;
     }
   }
   
+/* Cell phones */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .head-container, .slicknav_menu
+   {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    }
+  #site-logo {
+    margin-left: .92em;
+    }
+  #main-content {
+    margin-top: 9em;
+    padding: 1em;
+  }
+
+  #block-mainnavigation-2, #block-mainnavigation {
+      display: none;
+    }
+
+  .doverlay {
+      display: none;
+  }
+
+  #preface-area {
+      display: none;
+  }
+
+  .leader {
+      display: none;
+  }
+
+  .slicknav_menu {
+    background-color: #35100b;
+    background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%237e007a' fill-opacity='0.2' fill-rule='evenodd'/%3E%3C/svg%3E");
+    color: #dfdfdf;
+  }
+
+  .slicknav_menu a {
+     background: transparent;
+     z-index: 1000;
+  }
+
+  .slicknav_nav a:link, .slicknav_nav a:visited  {
+      color: #f3f3f3;
+      border-bottom: 1px #818181 solid;
+      z-index: 1000;
+  }
+
+  .slicknav_btn {
+    background-color: #030303;
+    margin: 0;
+    padding: .25em;
+  }
+
+  .top .float-right,
+  .attorney .float-right {
+    padding: 0em;
+    margin-bottom: 25px;
+    display: block;
+    width: 100%;
+  }
+
+  .leader .primelead,
+  .leader span.badge-info {
+    display: none;
+  }
+
+  .leader span.tel-number {
+    margin-top: -35px;
+  }
+
+  .tag {
+    display: none;
+  }
+
+  .head-container {
+    //height: auto;
+  }
+
+  .breadcrumb {
+    display: none;
+  }
+
+  #footer-menu {
+    display: none;
+  }
+
+  #site-logo {
+    margin-top: 15px;
+  }
+
+  #main-content .service {
+    padding: 1em 0em .65em 0em;
+    margin: .25em 0em 1em 0em;
+    border-bottom: 1px #e4e4e4 solid;
+   }
+
+  #main-content p,
+  #main-content .service {
+   // font-size: 15px;
+    letter-spacing: .0em;
+    line-height: 1.65em;
+  }
+  #main-content p.lead {
+      margin-top: -2em;
+      margin-bottom: 2.15em;
+  }
+
+  #main-content .service-top {
+    margin-top: -10px;
+    padding-top: 0;
+  }
+
+  #main-content .service ul {
+    margin-left: 25px;
+  }
+
+  #main-content .service ul.serv-list-b {
+    margin-top: -26px;
+    padding: 0px;
+  }
+
+  #main-content .service-note {
+    margin: 20px 0px 20px 0px;
+    padding: 0px;
+  }
+
+  #main-content h2 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 22px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 480px) {
+    #main-content h2 {
+      font-size: 22px;
+      font-weight: 800;
+      line-height: 22px;
+      padding-bottom: 1em;
+    }
+ }
+}

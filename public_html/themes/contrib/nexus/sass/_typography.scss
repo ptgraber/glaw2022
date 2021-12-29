@@ -1,9 +1,10 @@
 /*  Sizing */
 
 h1.page-title {
-  font-size: 3.25vmin;
-  margin: 0vmin 0vmin 3.5vmin 0vmin;
+  font-size: 29px;
   color: #7a150b;
+  margin: 20px 0px 20px 0px;
+  font-weight: 800;
   }
 
 h2, h2 a:link, h2 a:visited {
@@ -23,9 +24,8 @@ h2, h2 a:link, h2 a:visited {
 
 h3 {
   font-weight: 800;
-  font-size: .96em;
+  font-size: .99em;
   line-height: 1.2em;
-  //margin-top: 1.85em;
   color: #23333f
 }
 
@@ -61,8 +61,8 @@ h4.service-title {
 
 @media screen and (min-width: 320px) and (max-width: 480px)  {
   h1.page-title {
-    font-size: 3.85em;
     line-height: 1em;
+    font-size: 22px;
     color: #7a150b;
     }
 
@@ -72,12 +72,12 @@ h4.service-title {
 
 
 .service-title {
-  font-size: .91em;
+  font-size: .98em;
   line-height: 1.2em;
   margin: 0px 0px 0px 0px;
   color: #4e1710;
   font-weight: bold;
-}
+  }
 
 .service-title a:link, .service-title a:visited {
 margin: 0;
@@ -89,9 +89,9 @@ color: #4e1710;
 }
 
 #main-content {
-  font-size: 1.92em;
   letter-spacing: .02em;
   line-height: 1.60em;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px)  {
@@ -100,6 +100,7 @@ color: #4e1710;
       line-height: 1.4em;
     }
 }
+
 /*---Lead ----*/
 
 .lead {
@@ -119,5 +120,4 @@ p.lead-alt {
 
 body {
  color: #5d5d5d;
-}
 }
